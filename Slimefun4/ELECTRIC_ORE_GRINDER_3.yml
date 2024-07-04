@@ -1,0 +1,948 @@
+machine: ELECTRIC_ORE_GRINDER_3
+recipes:
+  - name: 烈焰粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: BLAZE_ROD
+        amount: 1
+    output:
+      - type: mc
+        id: BLAZE_POWDER
+        amount: 4
+  - name: 骨粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: BONE
+        amount: 1
+    output:
+      - type: mc
+        id: BONE_MEAL
+        amount: 4
+  - name: 骨粉块
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: BONE_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: BONE_MEAL
+        amount: 9
+  - name: 圆石变沙砾
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COBBLESTONE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 安山岩变沙砾
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: ANDESITE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 黑石变沙砾
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: BLACKSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 闪长岩变沙砾
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DIORITE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 花岗岩变沙砾
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: GRANITE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 泥土变石块
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DIRT
+        amount: 1
+    output:
+      - type: sf
+        id: STONE_CHUNK
+        amount: 1
+  - name: 砂岩变沙子
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: SANDSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: SAND
+        amount: 4
+  - name: 红砂岩变红沙
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: RED_SANDSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: RED_SAND
+        amount: 4
+  - name: 海晶砖变海晶
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: PRISMARINE_BRICKS
+        amount: 1
+    output:
+      - type: mc
+        id: PRISMARINE
+        amount: 2
+  - name: 海晶变海晶碎片
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: PRISMARINE
+        amount: 1
+    output:
+      - type: mc
+        id: PRISMARINE_SHARD
+        amount: 4
+  - name: 地狱疣块变地狱疣
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: NETHER_WART_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: NETHER_WART
+        amount: 9
+  - name: 石英块变石英
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: QUARTZ_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: QUARTZ
+        amount: 4
+  - name: 玄武岩变黑石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: BASALT
+        amount: 2
+    output:
+      - type: mc
+        id: BLACKSTONE
+        amount: 1
+  - name: 紫水晶块变紫水晶碎片
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: AMETHYST_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: AMETHYST_SHARD
+        amount: 4
+  - name: 深板岩变沙砾
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COBBLED_DEEPSLATE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 魔法块2变魔法块1
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: MAGIC_LUMP_2
+        amount: 1
+    output:
+      - type: sf
+        id: MAGIC_LUMP_1
+        amount: 4
+  - name: 魔法块3变魔法块2
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: MAGIC_LUMP_3
+        amount: 1
+    output:
+      - type: sf
+        id: MAGIC_LUMP_2
+        amount: 4
+  - name: 末影块2变末影块1
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: ENDER_LUMP_2
+        amount: 1
+    output:
+      - type: sf
+        id: ENDER_LUMP_1
+        amount: 4
+  - name: 末影块3变末影块2
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: ENDER_LUMP_3
+        amount: 1
+    output:
+      - type: sf
+        id: ENDER_LUMP_2
+        amount: 4
+  - name: 钻石变碳
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DIAMOND
+        amount: 1
+    output:
+      - type: sf
+        id: CARBON
+        amount: 4
+  - name: 地狱疣变魔法块1
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: NETHER_WART
+        amount: 1
+    output:
+      - type: sf
+        id: MAGIC_LUMP_1
+        amount: 2
+  - name: 末影之眼变末影块1
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: ENDER_EYE
+        amount: 1
+    output:
+      - type: sf
+        id: ENDER_LUMP_1
+        amount: 2
+  - name: 小麦变面粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: WHEAT
+        amount: 1
+    output:
+      - type: sf
+        id: WHEAT_FLOUR
+        amount: 1
+  - name: 可编程安卓变机器废料
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: PROGRAMMABLE_ANDROID
+        amount: 1
+    output:
+      - type: sf
+        id: MACHINE_SCRAP
+        amount: 8
+  - name: 可编程安卓2变高级机器废料
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: PROGRAMMABLE_ANDROID_2
+        amount: 1
+    output:
+      - type: sf
+        id: ADVANCED_MACHINE_SCRAP
+        amount: 8
+  - name: 星尘陨石变星尘
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: STARDUST_METEOR
+        amount: 1
+    output:
+      - type: sf
+        id: STAR_DUST
+        amount: 1
+  - name: 下界合金锭变至尊下界合金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: NETHERITE_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: SUPREME_DUST_NETHERITE
+        amount: 4
+  - name: 发光墨囊变至尊发光墨粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: GLOW_INK_SAC
+        amount: 1
+    output:
+      - type: sf
+        id: SUPREME_DUST_GLOW_INK
+        amount: 4
+  - name: 紫水晶碎片变至尊紫水晶粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: AMETHYST_SHARD
+        amount: 1
+    output:
+      - type: sf
+        id: SUPREME_DUST_AMETHYST
+        amount: 4
+  - name: 圆石生成器变碎石生成器
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: SMG_GENERATOR_COBBLESTONE
+        amount: 1
+    output:
+      - type: sf
+        id: SMG_GENERATOR_GRAVEL_BROKEN
+        amount: 1
+  - name: 仙后之心变仙尘
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: PIXIE_QUEEN_HEART
+        amount: 1
+    output:
+      - type: sf
+        id: PIXIE_DUST
+        amount: 8
+  - name: 邪恶南瓜变邪恶种子
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: VILE_PUMPKIN
+        amount: 1
+    output:
+      - type: sf
+        id: VILE_SEEDS
+        amount: 6
+  - name: 善良魔法植物变善良精华
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: AV_GOOD_MAGIC_PLANT
+        amount: 1
+    output:
+      - type: sf
+        id: AV_GOOD_ESSENCE
+        amount: 4
+  - name: 邪恶魔法植物变邪恶精华
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: AV_EVIL_MAGIC_PLANT
+        amount: 1
+    output:
+      - type: sf
+        id: AV_EVIL_ESSENCE
+        amount: 4
+  - name: 黑石变红沙
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: BLACKSTONE
+        amount: 8
+    output:
+      - type: mc
+        id: RED_SAND
+        amount: 1
+  - name: 圆石变沙子
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COBBLESTONE
+        amount: 8
+    output:
+      - type: mc
+        id: SAND
+        amount: 1
+  - name: 4K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_4K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1
+  - name: 6K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_6K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+  - name: 8K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_8K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+  - name: 10K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_10K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 3
+  - name: 12K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_12K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 3
+  - name: 14K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_14K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 4
+  - name: 16K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_16K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 4
+  - name: 18K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_18K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 5
+  - name: 20K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_20K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 5
+  - name: 22K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_22K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 6
+  - name: 24K金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: GOLD_24K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 6
+  - name: 沙砾变沙子
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+    output:
+      - type: mc
+        id: SAND
+        amount: 1
+  - name: 岩浆块变硫酸盐
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 1
+    output:
+      - type: sf
+        id: SULFATE
+        amount: 1
+  - name: 碳变煤炭
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: CARBON
+        amount: 1
+    output:
+      - type: mc
+        id: COAL
+        amount: 8
+  - name: 压缩碳变碳
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: COMPRESSED_CARBON
+        amount: 1
+    output:
+      - type: sf
+        id: CARBON
+        amount: 4
+  - name: 深板岩变沙子
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COBBLED_DEEPSLATE
+        amount: 8
+    output:
+      - type: mc
+        id: SAND
+        amount: 1
+  - name: 煤矿石变煤炭
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COAL_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: COAL
+        amount: 2
+  - name: 青金石矿石变青金石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: LAPIS_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 14
+  - name: 红石矿石变红石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: REDSTONE_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: REDSTONE
+        amount: 8
+  - name: 钻石矿石变钻石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DIAMOND_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: DIAMOND
+        amount: 2
+  - name: 绿宝石矿石变绿宝石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: EMERALD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: EMERALD
+        amount: 2
+  - name: 下界石英矿石变石英
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: NETHER_QUARTZ_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: QUARTZ
+        amount: 2
+  - name: 下界金矿石变金粒
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: NETHER_GOLD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 8
+  - name: 镶金黑石变金粒
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: GILDED_BLACKSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 8
+  - name: 粗铁变铁粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: RAW_IRON
+        amount: 1
+    output:
+      - type: sf
+        id: IRON_DUST
+        amount: 1
+  - name: 粗铜变铜粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: RAW_COPPER
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+  - name: 粗金变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: RAW_GOLD
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1
+  - name: 深层煤矿石变煤炭
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_COAL_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: COAL
+        amount: 2
+  - name: 深层青金石矿石变青金石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_LAPIS_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 14
+  - name: 深层红石矿石变红石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_REDSTONE_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: REDSTONE
+        amount: 8
+  - name: 深层钻石矿石变钻石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_DIAMOND_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: DIAMOND
+        amount: 2
+  - name: 深层绿宝石矿石变绿宝石
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_EMERALD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: EMERALD
+        amount: 2
+  - name: 深层铁矿石变铁粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_IRON_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: IRON_DUST
+        amount: 2
+  - name: 深层金矿石变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_GOLD_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+  - name: 深层铜矿石变铜粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: DEEPSLATE_COPPER_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+  - name: 铜矿石变铜粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COPPER_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+  - name: 铁矿石变铁粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: IRON_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: IRON_DUST
+        amount: 2
+  - name: 金矿石变金粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: GOLD_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+  - name: 下界岩变硫酸盐
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: NETHERRACK
+        amount: 16
+    output:
+      - type: sf
+        id: SULFATE
+        amount: 1
+  - name: 筛过的矿石变破碎的矿石
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: CRUSHED_ORE
+        amount: 1
+  - name: 破碎的矿石变粉碎的矿石
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: CRUSHED_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: PULVERIZED_ORE
+        amount: 1
+  - name: 纯净的矿簇变微型铀
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: PURE_ORE_CLUSTER
+        amount: 1
+    output:
+      - type: sf
+        id: TINY_URANIUM
+        amount: 1
+  - name: 煤炭变煤粉
+    duration: 2
+    energy: 45
+    input:
+      - type: mc
+        id: COAL
+        amount: 1
+    output:
+      - type: sf
+        id: COAL_DUST
+        amount: 1
+  - name: NPS附加浆果变NPS附加果酱
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: NPS_ADDON_BERRY
+        amount: 1
+    output:
+      - type: sf
+        id: NPS_ADDON_JAM
+        amount: 1
+  - name: 沙砾生成器变沙子生成器
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: SMG_GENERATOR_GRAVEL
+        amount: 1
+    output:
+      - type: sf
+        id: SMG_GENERATOR_SAND_BROKEN
+        amount: 1
+  - name: 红石生成器变红石生成器
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: SMG_GENERATOR_REDSTONE_BADLY_FORMED
+        amount: 1
+    output:
+      - type: sf
+        id: SMG_GENERATOR_REDSTONE_BROKEN
+        amount: 1
+  - name: 黑曜石生成器变黑曜石生成器
+    duration: 2
+    energy: 45
+    input:
+      - type: sf
+        id: SMG_GENERATOR_OBSIDIAN_BADLY_FORMED
+        amount: 1
+    output:
+      - type: sf
+        id: SMG_GENERATOR_OBSIDIAN_BROKEN
+        amount: 1

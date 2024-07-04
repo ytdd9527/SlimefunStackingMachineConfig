@@ -1,0 +1,387 @@
+machine: AUTO_DRIER
+recipes:
+  - name: 皮革
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: ROTTEN_FLESH
+        amount: 1
+    output:
+      - type: mc
+        id: LEATHER
+        amount: 1
+  - name: 海绵
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: WET_SPONGE
+        amount: 1
+    output:
+      - type: mc
+        id: SPONGE
+        amount: 1
+  - name: 干海带
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: KELP
+        amount: 1
+    output:
+      - type: mc
+        id: DRIED_KELP
+        amount: 1
+  - name: 玻璃瓶
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: POTION
+        amount: 1
+    output:
+      - type: mc
+        id: GLASS_BOTTLE
+        amount: 1
+  - name: 玻璃瓶
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: SPLASH_POTION
+        amount: 1
+    output:
+      - type: mc
+        id: GLASS_BOTTLE
+        amount: 1
+  - name: 玻璃瓶
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: LINGERING_POTION
+        amount: 1
+    output:
+      - type: mc
+        id: GLASS_BOTTLE
+        amount: 1
+  - name: 水桶
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+    output:
+      - type: mc
+        id: BUCKET
+        amount: 1
+  - name: 牛肉干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_BEEF
+        amount: 1
+    output:
+      - type: sf
+        id: BEEF_JERKY
+        amount: 1
+  - name: 猪肉干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_PORKCHOP
+        amount: 1
+    output:
+      - type: sf
+        id: PORK_JERKY
+        amount: 1
+  - name: 鸡肉干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_CHICKEN
+        amount: 1
+    output:
+      - type: sf
+        id: CHICKEN_JERKY
+        amount: 1
+  - name: 羊肉干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_MUTTON
+        amount: 1
+    output:
+      - type: sf
+        id: MUTTON_JERKY
+        amount: 1
+  - name: 兔肉干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_RABBIT
+        amount: 1
+    output:
+      - type: sf
+        id: RABBIT_JERKY
+        amount: 1
+  - name: 鱼干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_COD
+        amount: 1
+    output:
+      - type: sf
+        id: FISH_JERKY
+        amount: 1
+  - name: 鱼干
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: COOKED_SALMON
+        amount: 1
+    output:
+      - type: sf
+        id: FISH_JERKY
+        amount: 1
+  - name: 黏土
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: MUD
+        amount: 1
+    output:
+      - type: mc
+        id: CLAY
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: AZALEA
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: OAK_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: ACACIA_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: DARK_OAK_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: FLOWERING_AZALEA
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: SPRUCE_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: CHERRY_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: MANGROVE_PROPAGULE
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: BIRCH_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: JUNGLE_SAPLING
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 2
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: BIRCH_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: FLOWERING_AZALEA_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: ACACIA_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: SPRUCE_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: MANGROVE_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: AZALEA_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: JUNGLE_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: OAK_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: CHERRY_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1
+  - name: 木棍
+    duration: 12
+    energy: 50
+    input:
+      - type: mc
+        id: DARK_OAK_LEAVES
+        amount: 1
+    output:
+      - type: mc
+        id: STICK
+        amount: 1

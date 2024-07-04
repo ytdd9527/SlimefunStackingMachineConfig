@@ -1,0 +1,255 @@
+machine: ELECTRIC_COMPOSTER_2
+recipes:
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: BIRCH_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: FLOWERING_AZALEA_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: ACACIA_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: SPRUCE_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: MANGROVE_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: AZALEA_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: JUNGLE_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: OAK_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: CHERRY_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: DARK_OAK_LEAVES
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: AZALEA
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: OAK_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: ACACIA_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: DARK_OAK_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: FLOWERING_AZALEA
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: SPRUCE_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: CHERRY_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: MANGROVE_PROPAGULE
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: BIRCH_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 泥土
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: JUNGLE_SAPLING
+        amount: 8
+    output:
+      - type: mc
+        id: DIRT
+        amount: 1
+  - name: 地狱岩
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: STONE
+        amount: 4
+    output:
+      - type: mc
+        id: NETHERRACK
+        amount: 1
+  - name: 灵魂沙
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: SAND
+        amount: 2
+    output:
+      - type: mc
+        id: SOUL_SAND
+        amount: 1
+  - name: 地狱疣
+    duration: 4
+    energy: 25
+    input:
+      - type: mc
+        id: WHEAT
+        amount: 4
+    output:
+      - type: mc
+        id: NETHER_WART
+        amount: 1

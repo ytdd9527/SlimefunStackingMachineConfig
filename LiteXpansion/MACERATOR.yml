@@ -1,0 +1,486 @@
+machine: MACERATOR
+recipes:
+  - name: 烈焰棒转换为烈焰粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: BLAZE_ROD
+        amount: 1
+    output:
+      - type: mc
+        id: BLAZE_POWDER
+        amount: 5
+  - name: 煤炭块转换为煤炭粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: COAL_BLOCK
+        amount: 1
+    output:
+      - type: sf
+        id: COAL_DUST
+        amount: 9
+  - name: 红石块转换为红石
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: REDSTONE_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: REDSTONE
+        amount: 9
+  - name: 石英块转换为石英
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: QUARTZ_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: QUARTZ
+        amount: 4
+  - name: 骨块转换为骨粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: BONE_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: BONE_MEAL
+        amount: 9
+  - name: 骨头转换为骨粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: BONE
+        amount: 1
+    output:
+      - type: mc
+        id: BONE_MEAL
+        amount: 4
+  - name: 粘土转换为粘土球
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: CLAY
+        amount: 1
+    output:
+      - type: mc
+        id: CLAY_BALL
+        amount: 4
+  - name: 煤炭转换为煤炭粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: COAL
+        amount: 1
+    output:
+      - type: sf
+        id: COAL_DUST
+        amount: 1
+  - name: 圆石转换为沙子
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: COBBLESTONE
+        amount: 1
+    output:
+      - type: mc
+        id: SAND
+        amount: 1
+  - name: 荧石转换为荧石粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: GLOWSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: GLOWSTONE_DUST
+        amount: 4
+  - name: 沙砾转换为燧石
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+    output:
+      - type: mc
+        id: FLINT
+        amount: 2
+  - name: 冰转换为雪球
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: ICE
+        amount: 1
+    output:
+      - type: mc
+        id: SNOWBALL
+        amount: 4
+  - name: 石英楼梯转换为石英
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: QUARTZ_STAIRS
+        amount: 1
+    output:
+      - type: mc
+        id: QUARTZ
+        amount: 4
+  - name: 砂岩转换为沙子
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: SANDSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: SAND
+        amount: 4
+  - name: 石头转换为圆石
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: STONE
+        amount: 1
+    output:
+      - type: mc
+        id: COBBLESTONE
+        amount: 1
+  - name: 花岗岩转换为沙砾
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: GRANITE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 安山岩转换为沙砾
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: ANDESITE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 闪长岩转换为沙砾
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: DIORITE
+        amount: 1
+    output:
+      - type: mc
+        id: GRAVEL
+        amount: 1
+  - name: 铁矿石转换为铁粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: IRON_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: IRON_DUST
+        amount: 2
+  - name: 煤矿石转换为煤炭粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: COAL_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: COAL_DUST
+        amount: 2
+  - name: 青金石矿石转换为紫色染料
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: LAPIS_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: PURPLE_DYE
+        amount: 2
+  - name: 金矿石转换为金粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: GOLD_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+  - name: 红石矿石转换为红色染料
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: REDSTONE_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: RED_DYE
+        amount: 2
+  - name: 钻石矿石转换为青色染料
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: DIAMOND_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: CYAN_DYE
+        amount: 2
+  - name: 绿宝石矿石转换为石灰染料
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: EMERALD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: LIME_DYE
+        amount: 2
+  - name: 下界石英矿石转换为白色染料
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: NETHER_QUARTZ_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: WHITE_DYE
+        amount: 2
+  - name: 下界金矿石转换为金粉
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: NETHER_GOLD_ORE
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+  - name: 远古残骸转换为棕色染料
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: ANCIENT_DEBRIS
+        amount: 1
+    output:
+      - type: mc
+        id: BROWN_DYE
+        amount: 2
+  - name: 黑色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: BLACK_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 紫色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: PURPLE_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 品红色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: MAGENTA_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 棕色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: BROWN_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 淡蓝色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: LIGHT_BLUE_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 黄色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: YELLOW_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 橙色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: ORANGE_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 淡灰色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: LIGHT_GRAY_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 灰色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: GRAY_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 绿色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: GREEN_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 粉红色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: PINK_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 白色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: WHITE_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 蓝色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: BLUE_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 青色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: CYAN_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 红色羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: RED_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4
+  - name: 石灰羊毛转换为线
+    duration: 10
+    energy: 400
+    input:
+      - type: mc
+        id: LIME_WOOL
+        amount: 1
+    output:
+      - type: mc
+        id: STRING
+        amount: 4

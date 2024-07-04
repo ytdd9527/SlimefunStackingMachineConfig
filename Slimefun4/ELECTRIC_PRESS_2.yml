@@ -1,0 +1,431 @@
+machine: ELECTRIC_PRESS_2
+recipes:
+  - name: 圆石
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: STONE_CHUNK
+        amount: 3
+    output:
+      - type: mc
+        id: COBBLESTONE
+        amount: 1
+  - name: 圆石
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: FLINT
+        amount: 6
+    output:
+      - type: mc
+        id: COBBLESTONE
+        amount: 1
+  - name: 玻璃板
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: GLASS
+        amount: 1
+    output:
+      - type: mc
+        id: GLASS_PANE
+        amount: 3
+  - name: 雪块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: SNOWBALL
+        amount: 4
+    output:
+      - type: mc
+        id: SNOW_BLOCK
+        amount: 1
+  - name: 岩浆块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: MAGMA_CREAM
+        amount: 4
+    output:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 1
+  - name: 粘液块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: SLIME_BALL
+        amount: 9
+    output:
+      - type: mc
+        id: SLIME_BLOCK
+        amount: 1
+  - name: 干海带块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: DRIED_KELP
+        amount: 9
+    output:
+      - type: mc
+        id: DRIED_KELP_BLOCK
+        amount: 1
+  - name: 骨块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: BONE_MEAL
+        amount: 9
+    output:
+      - type: mc
+        id: BONE_BLOCK
+        amount: 1
+  - name: 粘土
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: CLAY_BALL
+        amount: 4
+    output:
+      - type: mc
+        id: CLAY
+        amount: 1
+  - name: 砖块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: BRICK
+        amount: 4
+    output:
+      - type: mc
+        id: BRICKS
+        amount: 1
+  - name: 铜线
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: COPPER_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_WIRE
+        amount: 3
+  - name: 钢板
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: STEEL_INGOT
+        amount: 8
+    output:
+      - type: sf
+        id: STEEL_PLATE
+        amount: 1
+  - name: 强化板
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: REINFORCED_ALLOY_INGOT
+        amount: 8
+    output:
+      - type: sf
+        id: REINFORCED_PLATE
+        amount: 1
+  - name: 魔法块1
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: NETHER_WART
+        amount: 1
+    output:
+      - type: sf
+        id: MAGIC_LUMP_1
+        amount: 2
+  - name: 魔法块2
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: MAGIC_LUMP_1
+        amount: 4
+    output:
+      - type: sf
+        id: MAGIC_LUMP_2
+        amount: 1
+  - name: 魔法块3
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: MAGIC_LUMP_2
+        amount: 4
+    output:
+      - type: sf
+        id: MAGIC_LUMP_3
+        amount: 1
+  - name: 末影块1
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: ENDER_EYE
+        amount: 1
+    output:
+      - type: sf
+        id: ENDER_LUMP_1
+        amount: 2
+  - name: 末影块2
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: ENDER_LUMP_1
+        amount: 4
+    output:
+      - type: sf
+        id: ENDER_LUMP_2
+        amount: 1
+  - name: 末影块3
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: ENDER_LUMP_2
+        amount: 4
+    output:
+      - type: sf
+        id: ENDER_LUMP_3
+        amount: 1
+  - name: 小铀块
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: TINY_URANIUM
+        amount: 9
+    output:
+      - type: sf
+        id: SMALL_URANIUM
+        amount: 1
+  - name: 铀块
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: SMALL_URANIUM
+        amount: 4
+    output:
+      - type: sf
+        id: URANIUM
+        amount: 1
+  - name: 石英块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: QUARTZ
+        amount: 4
+    output:
+      - type: mc
+        id: QUARTZ_BLOCK
+        amount: 1
+  - name: 铁锭
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 9
+    output:
+      - type: mc
+        id: IRON_INGOT
+        amount: 1
+  - name: 金锭
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 9
+    output:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+  - name: 煤炭块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: COAL
+        amount: 9
+    output:
+      - type: mc
+        id: COAL_BLOCK
+        amount: 1
+  - name: 砂岩
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: SAND
+        amount: 4
+    output:
+      - type: mc
+        id: SANDSTONE
+        amount: 1
+  - name: 红砂岩
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: RED_SAND
+        amount: 4
+    output:
+      - type: mc
+        id: RED_SANDSTONE
+        amount: 1
+  - name: 铁块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: IRON_INGOT
+        amount: 9
+    output:
+      - type: mc
+        id: IRON_BLOCK
+        amount: 1
+  - name: 金块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 9
+    output:
+      - type: mc
+        id: GOLD_BLOCK
+        amount: 1
+  - name: 红石块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: REDSTONE
+        amount: 9
+    output:
+      - type: mc
+        id: REDSTONE_BLOCK
+        amount: 1
+  - name: 青金石块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 9
+    output:
+      - type: mc
+        id: LAPIS_BLOCK
+        amount: 1
+  - name: 绿宝石块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: EMERALD
+        amount: 9
+    output:
+      - type: mc
+        id: EMERALD_BLOCK
+        amount: 1
+  - name: 钻石块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: DIAMOND
+        amount: 9
+    output:
+      - type: mc
+        id: DIAMOND_BLOCK
+        amount: 1
+  - name: 下界合金块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: NETHERITE_INGOT
+        amount: 9
+    output:
+      - type: mc
+        id: NETHERITE_BLOCK
+        amount: 1
+  - name: 紫水晶块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: AMETHYST_SHARD
+        amount: 4
+    output:
+      - type: mc
+        id: AMETHYST_BLOCK
+        amount: 1
+  - name: 铜块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: COPPER_INGOT
+        amount: 9
+    output:
+      - type: mc
+        id: COPPER_BLOCK
+        amount: 1
+  - name: 粗铁块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: RAW_IRON
+        amount: 9
+    output:
+      - type: mc
+        id: RAW_IRON_BLOCK
+        amount: 1
+  - name: 粗金块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: RAW_GOLD
+        amount: 9
+    output:
+      - type: mc
+        id: RAW_GOLD_BLOCK
+        amount: 1
+  - name: 粗铜块
+    duration: 2
+    energy: 20
+    input:
+      - type: mc
+        id: RAW_COPPER
+        amount: 9
+    output:
+      - type: mc
+        id: RAW_COPPER_BLOCK
+        amount: 1

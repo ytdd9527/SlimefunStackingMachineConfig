@@ -1,0 +1,101 @@
+machine: ELECTRIC_DUST_RECYCLER
+recipes:
+  - name: 筛选铜矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选金矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选铁矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: IRON_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选铅矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: LEAD_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选铝矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选锌矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: ZINC_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选锡矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: TIN_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选镁矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: MAGNESIUM_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1
+  - name: 筛选银矿
+    duration: 2
+    energy: 32
+    input:
+      - type: sf
+        id: SILVER_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: SIFTED_ORE
+        amount: 1

@@ -1,0 +1,123 @@
+machine: FOOD_COMPOSTER_2
+recipes:
+  - name: 小麦有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_WHEAT
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_WHEAT
+        amount: 2
+  - name: 胡萝卜有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_CARROT
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_CARROT
+        amount: 2
+  - name: 马铃薯有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_POTATO
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_POTATO
+        amount: 2
+  - name: 种子有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_SEEDS
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_SEEDS
+        amount: 2
+  - name: 甜菜根有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_BEETROOT
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_BEETROOT
+        amount: 2
+  - name: 西瓜有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_MELON
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_MELON
+        amount: 2
+  - name: 苹果有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_APPLE
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_APPLE
+        amount: 2
+  - name: 海带有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_KELP
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_KELP
+        amount: 2
+  - name: 可可豆有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_COCOA
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_COCOA
+        amount: 2
+  - name: 甜莓有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_SWEET_BERRIES
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_SWEET_BERRIES
+        amount: 2
+  - name: 海草有机肥料
+    duration: 6
+    energy: 26
+    input:
+      - type: sf
+        id: ORGANIC_FOOD_SEAGRASS
+        amount: 1
+    output:
+      - type: sf
+        id: FERTILIZER_SEAGRASS
+        amount: 2

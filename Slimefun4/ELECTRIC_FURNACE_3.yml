@@ -1,0 +1,1367 @@
+machine: ELECTRIC_FURNACE_3
+recipes:
+  - name: 青色陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CYAN_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: CYAN_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 浅蓝色陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: LIGHT_BLUE_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: LIGHT_BLUE_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 铜矿石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: COPPER_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: COPPER_INGOT
+        amount: 1
+  - name: 平滑砂岩
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: SANDSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: SMOOTH_SANDSTONE
+        amount: 1
+  - name: 绿色染料
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CACTUS
+        amount: 1
+    output:
+      - type: mc
+        id: GREEN_DYE
+        amount: 1
+  - name: 青金石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: LAPIS_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 1
+  - name: 裂纹磨制黑石砖
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: POLISHED_BLACKSTONE_BRICKS
+        amount: 1
+    output:
+      - type: mc
+        id: CRACKED_POLISHED_BLACKSTONE_BRICKS
+        amount: 1
+  - name: 地狱砖
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: NETHERRACK
+        amount: 1
+    output:
+      - type: mc
+        id: NETHER_BRICK
+        amount: 1
+  - name: 深板岩铜矿石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_COPPER_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: COPPER_INGOT
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DARK_OAK_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DARK_OAK_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_DARK_OAK_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_DARK_OAK_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: OAK_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: OAK_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_OAK_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_OAK_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: ACACIA_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: ACACIA_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_ACACIA_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_ACACIA_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BIRCH_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BIRCH_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_BIRCH_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_BIRCH_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: JUNGLE_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: JUNGLE_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_JUNGLE_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_JUNGLE_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: SPRUCE_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: SPRUCE_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_SPRUCE_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_SPRUCE_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: MANGROVE_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: MANGROVE_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_MANGROVE_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_MANGROVE_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHERRY_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHERRY_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_CHERRY_LOG
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 木炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STRIPPED_CHERRY_WOOD
+        amount: 1
+    output:
+      - type: mc
+        id: CHARCOAL
+        amount: 1
+  - name: 石英
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: NETHER_QUARTZ_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: QUARTZ
+        amount: 1
+  - name: 平滑石英
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: QUARTZ_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: SMOOTH_QUARTZ
+        amount: 1
+  - name: 平滑玄武岩
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BASALT
+        amount: 1
+    output:
+      - type: mc
+        id: SMOOTH_BASALT
+        amount: 1
+  - name: 烤土豆
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: POTATO
+        amount: 1
+    output:
+      - type: mc
+        id: BAKED_POTATO
+        amount: 1
+  - name: 绿宝石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: EMERALD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: EMERALD
+        amount: 1
+  - name: 熟羊肉
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: MUTTON
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_MUTTON
+        amount: 1
+  - name: 熟牛肉
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BEEF
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_BEEF
+        amount: 1
+  - name: 青金石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_LAPIS_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 1
+  - name: 玻璃
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: SAND
+        amount: 1
+    output:
+      - type: mc
+        id: GLASS
+        amount: 1
+  - name: 玻璃
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RED_SAND
+        amount: 1
+    output:
+      - type: mc
+        id: GLASS
+        amount: 1
+  - name: 金锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+  - name: 铁锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_INGOT
+        amount: 1
+  - name: 红色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RED_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: RED_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 铁锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RAW_IRON
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_INGOT
+        amount: 1
+  - name: 铁锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_IRON_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_INGOT
+        amount: 1
+  - name: 砖块
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CLAY_BALL
+        amount: 1
+    output:
+      - type: mc
+        id: BRICK
+        amount: 1
+  - name: 绿色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GREEN_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: GREEN_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 金锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_GOLD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+  - name: 裂纹石砖
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STONE_BRICKS
+        amount: 1
+    output:
+      - type: mc
+        id: CRACKED_STONE_BRICKS
+        amount: 1
+  - name: 浅灰色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: LIGHT_GRAY_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: LIGHT_GRAY_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 金锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RAW_GOLD
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+  - name: 干海带
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: KELP
+        amount: 1
+    output:
+      - type: mc
+        id: DRIED_KELP
+        amount: 1
+  - name: 裂纹深板岩砖
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_BRICKS
+        amount: 1
+    output:
+      - type: mc
+        id: CRACKED_DEEPSLATE_BRICKS
+        amount: 1
+  - name: 红石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_REDSTONE_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: REDSTONE
+        amount: 1
+  - name: 石灰釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: LIME_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: LIME_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 绿宝石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_EMERALD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: EMERALD
+        amount: 1
+  - name: 煤炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: COAL_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: COAL
+        amount: 1
+  - name: 钻石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DIAMOND_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: DIAMOND
+        amount: 1
+  - name: 熟兔肉
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RABBIT
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_RABBIT
+        amount: 1
+  - name: 品红釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: MAGENTA_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: MAGENTA_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 黑色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BLACK_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: BLACK_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 煤炭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_COAL_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: COAL
+        amount: 1
+  - name: 橙色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: ORANGE_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: ORANGE_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 石灰染料
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: SEA_PICKLE
+        amount: 1
+    output:
+      - type: mc
+        id: LIME_DYE
+        amount: 1
+  - name: 粉色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: PINK_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: PINK_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 熟鲑鱼
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: SALMON
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_SALMON
+        amount: 1
+  - name: 白色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: WHITE_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: WHITE_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 平滑红砂岩
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RED_SANDSTONE
+        amount: 1
+    output:
+      - type: mc
+        id: SMOOTH_RED_SANDSTONE
+        amount: 1
+  - name: 紫色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: PURPLE_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: PURPLE_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_PICKAXE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_SHOVEL
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_AXE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_HOE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_SWORD
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_HELMET
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_CHESTPLATE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_LEGGINGS
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_BOOTS
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 金粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GOLDEN_HORSE_ARMOR
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 1
+  - name: 陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CLAY
+        amount: 1
+    output:
+      - type: mc
+        id: TERRACOTTA
+        amount: 1
+  - name: 钻石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_DIAMOND_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: DIAMOND
+        amount: 1
+  - name: 金锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: NETHER_GOLD_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+  - name: 红石
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: REDSTONE_ORE
+        amount: 1
+    output:
+      - type: mc
+        id: REDSTONE
+        amount: 1
+  - name: 黄色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: YELLOW_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: YELLOW_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 下界合金碎片
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: ANCIENT_DEBRIS
+        amount: 1
+    output:
+      - type: mc
+        id: NETHERITE_SCRAP
+        amount: 1
+  - name: 裂纹板岩瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: DEEPSLATE_TILES
+        amount: 1
+    output:
+      - type: mc
+        id: CRACKED_DEEPSLATE_TILES
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_PICKAXE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_SHOVEL
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_AXE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_HOE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_SWORD
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_HELMET
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_CHESTPLATE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_LEGGINGS
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_BOOTS
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: IRON_HORSE_ARMOR
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHAINMAIL_HELMET
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHAINMAIL_CHESTPLATE
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHAINMAIL_LEGGINGS
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 铁粒
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHAINMAIL_BOOTS
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_NUGGET
+        amount: 1
+  - name: 熟猪排
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: PORKCHOP
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_PORKCHOP
+        amount: 1
+  - name: 平滑石头
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: STONE
+        amount: 1
+    output:
+      - type: mc
+        id: SMOOTH_STONE
+        amount: 1
+  - name: 海绵
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: WET_SPONGE
+        amount: 1
+    output:
+      - type: mc
+        id: SPONGE
+        amount: 1
+  - name: 蓝色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BLUE_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: BLUE_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 灰色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: GRAY_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: GRAY_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 熟鳕鱼
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: COD
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_COD
+        amount: 1
+  - name: 铜锭
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: RAW_COPPER
+        amount: 1
+    output:
+      - type: mc
+        id: COPPER_INGOT
+        amount: 1
+  - name: 爆裂的歌莱果
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHORUS_FRUIT
+        amount: 1
+    output:
+      - type: mc
+        id: POPPED_CHORUS_FRUIT
+        amount: 1
+  - name: 石头
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: COBBLESTONE
+        amount: 1
+    output:
+      - type: mc
+        id: STONE
+        amount: 1
+  - name: 深板岩
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: COBBLED_DEEPSLATE
+        amount: 1
+    output:
+      - type: mc
+        id: DEEPSLATE
+        amount: 1
+  - name: 棕色釉面陶瓦
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: BROWN_TERRACOTTA
+        amount: 1
+    output:
+      - type: mc
+        id: BROWN_GLAZED_TERRACOTTA
+        amount: 1
+  - name: 熟鸡肉
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: CHICKEN
+        amount: 1
+    output:
+      - type: mc
+        id: COOKED_CHICKEN
+        amount: 1
+  - name: 裂纹地狱砖
+    duration: 2
+    energy: 5
+    input:
+      - type: mc
+        id: NETHER_BRICKS
+        amount: 1
+    output:
+      - type: mc
+        id: CRACKED_NETHER_BRICKS
+        amount: 1
+

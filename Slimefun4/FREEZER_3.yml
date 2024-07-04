@@ -1,0 +1,96 @@
+machine: FREEZER_3
+recipes:
+  - name: 冰块转换为打包冰
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: ICE
+        amount: 1
+    output:
+      - type: mc
+        id: PACKED_ICE
+        amount: 1
+  - name: 打包冰转换为蓝冰
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: PACKED_ICE
+        amount: 1
+    output:
+      - type: mc
+        id: BLUE_ICE
+        amount: 1
+  - name: 水桶转换为冰块
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+    output:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: ICE
+        amount: 1
+  - name: 熔岩桶转换为黑曜石
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+    output:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: OBSIDIAN
+        amount: 1
+  - name: 蓝冰转换为反应堆冷却剂
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: BLUE_ICE
+        amount: 1
+    output:
+      - type: sf
+        id: REACTOR_COLLANT_CELL
+        amount: 1
+  - name: 雪块转换为冰块
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: SNOW_BLOCK
+        amount: 2
+    output:
+      - type: mc
+        id: ICE
+        amount: 1
+  - name: 岩浆膏转换为粘液球
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: MAGMA_CREAM
+        amount: 1
+    output:
+      - type: mc
+        id: SLIME_BALL
+        amount: 1
+  - name: 岩浆块转换为粘液块
+    duration: 2
+    energy: 21
+    input:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 2
+    output:
+      - type: mc
+        id: SLIME_BLOCK
+        amount: 1
