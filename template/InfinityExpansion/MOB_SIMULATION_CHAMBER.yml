@@ -1,0 +1,240 @@
+machine: MOB_SIMULATION_CHAMBER
+recipes:
+  - name: 僵尸生物芯片
+    duration: 10
+    energy: 600
+    input:
+      - type: sf
+        id: ZOMBIE_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: ZOMBIE_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: ROTTEN_FLESH
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 1
+          - type: mc
+            id: air
+            amount: 1
+            weight: 1
+  - name: 史莱姆生物芯片
+    duration: 10
+    energy: 300
+    input:
+      - type: sf
+        id: SLIME_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: SLIME_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: SLIME_BALL
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 1
+          - type: mc
+            id: air
+            amount: 1
+            weight: 1
+  - name: 岩浆怪生物芯片
+    duration: 10
+    energy: 300
+    input:
+      - type: sf
+        id: MAGMA_CUBE_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: MAGMA_CUBE_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: MAGMA_CREAM
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 1
+          - type: mc
+            id: air
+            amount: 1
+            weight: 1
+  - name: 牛生物芯片
+    duration: 10
+    energy: 150
+    input:
+      - type: sf
+        id: COW_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: COW_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: LEATHER
+            amount: 1
+            weight: 1
+          - type: mc
+            id: BEEF
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 1
+          - type: mc
+            id: air
+            amount: 1
+            weight: 1
+  - name: 羊生物芯片
+    duration: 10
+    energy: 150
+    input:
+      - type: sf
+        id: SHEEP_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: SHEEP_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: WHITE_WOOL
+            amount: 1
+            weight: 1
+          - type: mc
+            id: MUTTON
+            amount: 1
+            weight: 1
+          - type: mc
+            id: PINK_WOOL
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 1
+          - type: mc
+            id: air
+            amount: 1
+            weight: 1
+  - name: 蜘蛛生物芯片
+    duration: 10
+    energy: 600
+    input:
+      - type: sf
+        id: SPIDER_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: SPIDER_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: STRING
+            amount: 1
+            weight: 3
+          - type: mc
+            id: SPIDER_EYE
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 5
+          - type: mc
+            id: air
+            amount: 1
+            weight: 3
+  - name: 骷髅生物芯片
+    duration: 10
+    energy: 600
+    input:
+      - type: sf
+        id: SKELETON_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: SKELETON_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: BONE
+            amount: 1
+            weight: 2
+          - type: mc
+            id: ARROW
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 2
+          - type: mc
+            id: air
+            amount: 1
+            weight: 2
+  - name: 凋零骷髅生物芯片
+    duration: 10
+    energy: 1200
+    input:
+      - type: sf
+        id: WITHER_SKELETON_DATA_CARD
+        amount: 1
+    output:
+      - type: sf
+        id: WITHER_SKELETON_DATA_CARD
+        amount: 1
+      - type: weight
+        list:
+          - type: mc
+            id: COAL
+            amount: 2
+            weight: 10
+          - type: mc
+            id: BONE
+            amount: 1
+            weight: 3
+          - type: mc
+            id: WITHER_SKELETON_SKULL
+            amount: 1
+            weight: 1
+          - type: mc
+            id: EXPERIENCE_BOTTLE
+            amount: 1
+            weight: 10
+          - type: mc
+            id: air
+            amount: 1
+            weight: 10
+
+
+
+
+
+
+
+
+
+
