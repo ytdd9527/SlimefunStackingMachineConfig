@@ -1,0 +1,6 @@
+machine: INFINITE_PANEL
+empty:
+  - name: 无尽发电机
+    duration: 10
+    energy: 120000
+    output: []
