@@ -1,0 +1,145 @@
+machine: GOLD_TRANSMUTER
+recipes:
+  - name: 24K金块转换为金块
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_24K_BLOCK
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_BLOCK
+        amount: 1
+  - name: 4K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_4K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 4
+  - name: 6K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_6K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 9
+  - name: 8K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_8K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 13
+  - name: 10K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_10K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 18
+  - name: 12K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_12K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 22
+  - name: 14K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_14K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 27
+  - name: 16K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_16K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 31
+  - name: 18K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_18K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 36
+  - name: 20K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_20K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 40
+  - name: 22K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_22K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 45
+  - name: 24K金转换为金粒
+    duration: 14
+    energy: 9
+    input:
+      - type: sf
+        id: GOLD_24K
+        amount: 1
+    output:
+      - type: mc
+        id: GOLD_NUGGET
+        amount: 49
+  - name: 金锭转换为金粉
+    duration: 14
+    energy: 9
+    input:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1

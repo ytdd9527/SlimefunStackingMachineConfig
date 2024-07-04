@@ -1,0 +1,123 @@
+machine: ELECTRIC_INGOT_PULVERIZER
+recipes:
+  - name: 金粉
+    duration: 12
+    energy: 7
+    input:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1
+  - name: 铜粉
+    duration: 12
+    energy: 7
+    input:
+      - type: mc
+        id: COPPER_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+  - name: 铁粉
+    duration: 12
+    energy: 7
+    input:
+      - type: mc
+        id: IRON_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: IRON_DUST
+        amount: 1
+  - name: 铜粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: COPPER_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+  - name: 锡粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: TIN_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+  - name: 银粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: SILVER_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: SILVER_DUST
+        amount: 1
+  - name: 铅粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: LEAD_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: LEAD_DUST
+        amount: 1
+  - name: 铝粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: ALUMINUM_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+  - name: 锌粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: ZINC_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: ZINC_DUST
+        amount: 1
+  - name: 镁粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: MAGNESIUM_INGOT
+        amount: 1
+    output:
+      - type: sf
+        id: MAGNESIUM_DUST
+        amount: 1
+  - name: 4K金粉
+    duration: 12
+    energy: 7
+    input:
+      - type: sf
+        id: GOLD_4K
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1

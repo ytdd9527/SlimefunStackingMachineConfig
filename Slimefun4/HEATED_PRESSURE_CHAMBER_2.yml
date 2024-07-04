@@ -1,0 +1,108 @@
+machine: HEATED_PRESSURE_CHAMBER_2
+recipes:
+  - name: 油桶转换为塑料片
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: BUCKET_OF_OIL
+        amount: 1
+    output:
+      - type: sf
+        id: PLASTIC_SHEET
+        amount: 8
+  - name: 24K金和铀转换为灼热锭
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: GOLD_24K
+        amount: 1
+      - type: sf
+        id: URANIUM
+        amount: 1
+    output:
+      - type: sf
+        id: BLISTERING_INGOT
+        amount: 1
+  - name: 灼热锭和黑钻石转换为灼热锭2
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: BLISTERING_INGOT
+        amount: 1
+      - type: sf
+        id: CARBONADO
+        amount: 1
+    output:
+      - type: sf
+        id: BLISTERING_INGOT_2
+        amount: 1
+  - name: 灼热锭2和下界之星转换为灼热锭3
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: BLISTERING_INGOT_2
+        amount: 1
+      - type: mc
+        id: NETHER_STAR
+        amount: 1
+    output:
+      - type: sf
+        id: BLISTERING_INGOT_3
+        amount: 1
+  - name: 钚和铀转换为增强铀
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: PLUTONIUM
+        amount: 1
+      - type: sf
+        id: URANIUM
+        amount: 1
+    output:
+      - type: sf
+        id: BOOSTED_URANIUM
+        amount: 1
+  - name: 下界冰和钚转换为富集下界冰
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: NETHER_ICE
+        amount: 1
+      - type: sf
+        id: PLUTONIUM
+        amount: 1
+    output:
+      - type: sf
+        id: ENRICHED_NETHER_ICE
+        amount: 4
+  - name: 富集下界冰转换为下界冰冷却剂单元
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: ENRICHED_NETHER_ICE
+        amount: 1
+    output:
+      - type: sf
+        id: NETHER_ICE_COOLANT_CELL
+        amount: 8
+  - name: 镁粉和盐转换为镁盐
+    duration: 18
+    energy: 22
+    input:
+      - type: sf
+        id: MAGNESIUM_DUST
+        amount: 1
+      - type: sf
+        id: SALT
+        amount: 1
+    output:
+      - type: sf
+        id: MAGNESIUM_SALT
+        amount: 1

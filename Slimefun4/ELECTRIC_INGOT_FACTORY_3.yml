@@ -1,0 +1,101 @@
+machine: ELECTRIC_INGOT_FACTORY_3
+recipes:
+  - name: 铁锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: IRON_DUST
+        amount: 1
+    output:
+      - type: mc
+        id: IRON_INGOT
+        amount: 1
+  - name: 铜锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: COPPER_INGOT
+        amount: 1
+  - name: 锡锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: TIN_INGOT
+        amount: 1
+  - name: 银锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: SILVER_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: SILVER_INGOT
+        amount: 1
+  - name: 铅锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: LEAD_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: LEAD_INGOT
+        amount: 1
+  - name: 铝锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: ALUMINUM_INGOT
+        amount: 1
+  - name: 锌锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: ZINC_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: ZINC_INGOT
+        amount: 1
+  - name: 镁锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: MAGNESIUM_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: MAGNESIUM_INGOT
+        amount: 1
+  - name: 4K金锭
+    duration: 2
+    energy: 20
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_4K
+        amount: 1

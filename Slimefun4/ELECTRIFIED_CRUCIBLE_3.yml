@@ -1,0 +1,520 @@
+machine: ELECTRIFIED_CRUCIBLE_3
+recipes:
+  - name: 熔岩桶（圆石）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: COBBLESTONE
+        amount: 16
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（下界岩）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: NETHERRACK
+        amount: 16
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（石头）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: STONE
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（黑曜石）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: OBSIDIAN
+        amount: 1
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（白色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: WHITE_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（橙色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: ORANGE_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（品红色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: MAGENTA_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（浅蓝色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: LIGHT_BLUE_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（黄色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: YELLOW_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（黄绿色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: LIME_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（粉红色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: PINK_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（灰色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: GRAY_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（浅灰色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: LIGHT_GRAY_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（青色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: CYAN_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（紫色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: PURPLE_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（蓝色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: BLUE_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（棕色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: BROWN_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（绿色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: GREEN_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（红色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: RED_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（黑色陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: BLACK_TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（陶土）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: TERRACOTTA
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 水桶（白桦树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: BIRCH_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（开花杜鹃树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: FLOWERING_AZALEA_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（金合欢树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: ACACIA_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（云杉树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: SPRUCE_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（红树树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: MANGROVE_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（杜鹃树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: AZALEA_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（丛林树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: JUNGLE_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（橡树树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: OAK_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（樱花树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: CHERRY_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 水桶（深色橡树树叶）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: DARK_OAK_LEAVES
+        amount: 16
+    output:
+      - type: mc
+        id: WATER_BUCKET
+        amount: 1
+  - name: 熔岩桶（黑石）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: BLACKSTONE
+        amount: 8
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（玄武岩）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: BASALT
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（深板岩圆石）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: COBBLED_DEEPSLATE
+        amount: 12
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（深板岩）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: DEEPSLATE
+        amount: 10
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
+  - name: 熔岩桶（凝灰岩）
+    duration: 4
+    energy: 20
+    input:
+      - type: mc
+        id: BUCKET
+        amount: 1
+      - type: mc
+        id: TUFF
+        amount: 8
+    output:
+      - type: mc
+        id: LAVA_BUCKET
+        amount: 1
