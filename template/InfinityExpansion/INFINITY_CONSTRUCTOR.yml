@@ -141,7 +141,7 @@ recipes:
         amount: 2400
     output: 
       - type: sf
-        id:
+        id: COAL_SINGULARITY
         amount: 1
   - name: REDSTONE_SINGULARITY
     duration: 38
