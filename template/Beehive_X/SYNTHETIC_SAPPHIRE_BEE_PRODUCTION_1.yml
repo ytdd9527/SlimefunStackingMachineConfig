@@ -1,0 +1,9 @@
+machine: SYNTHETIC_SAPPHIRE_BEE_PRODUCTION_1
+empty:
+- name: SYNTHETIC_SAPPHIRE_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: SYNTHETIC_SAPPHIRE
+    amount: 1

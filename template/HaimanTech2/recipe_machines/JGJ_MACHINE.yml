@@ -1,0 +1,24 @@
+machine: JGJ_MACHINE
+recipes:
+- name: '1'
+  duration: 1
+  energy: 70
+  input:
+  - type: mc
+    id: RED_DYE
+    amount: 1
+  output:
+  - type: mc
+    id: SWEET_BERRIES
+    amount: 4
+- name: '2'
+  duration: 1
+  energy: 70
+  input:
+  - type: mc
+    id: GLOWSTONE_DUST
+    amount: 1
+  output:
+  - type: mc
+    id: GLOW_BERRIES
+    amount: 4

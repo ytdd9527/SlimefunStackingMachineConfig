@@ -1,0 +1,167 @@
+machine: CORAL_DEAD_MACHINE
+recipes:
+- name: '1'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: TUBE_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_TUBE_CORAL
+    amount: 1
+- name: '2'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: BRAIN_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BRAIN_CORAL
+    amount: 1
+- name: '3'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: BUBBLE_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BUBBLE_CORAL
+    amount: 1
+- name: '4'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: FIRE_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_FIRE_CORAL
+    amount: 1
+- name: '5'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: HORN_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_HORN_CORAL
+    amount: 1
+- name: '6'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: TUBE_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_TUBE_CORAL_FAN
+    amount: 1
+- name: '7'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: BUBBLE_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BUBBLE_CORAL_FAN
+    amount: 1
+- name: '8'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: FIRE_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_FIRE_CORAL_FAN
+    amount: 1
+- name: '9'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: HORN_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_HORN_CORAL_FAN
+    amount: 1
+- name: '10'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: BRAIN_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BRAIN_CORAL_FAN
+    amount: 1
+- name: '11'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: TUBE_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_TUBE_CORAL_BLOCK
+    amount: 1
+- name: '12'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: BRAIN_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BRAIN_CORAL_BLOCK
+    amount: 1
+- name: '13'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: FIRE_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_FIRE_CORAL_BLOCK
+    amount: 1
+- name: '14'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: HORN_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_HORN_CORAL_BLOCK
+    amount: 1
+- name: '15'
+  duration: 2
+  energy: 5
+  input:
+  - type: mc
+    id: BUBBLE_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BUBBLE_CORAL_BLOCK
+    amount: 1

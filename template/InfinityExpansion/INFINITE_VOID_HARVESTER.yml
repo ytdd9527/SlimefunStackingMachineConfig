@@ -1,0 +1,9 @@
+machine: INFINITE_VOID_HARVESTER
+empty:
+  - name: VOID_DUST
+    duration: 10
+    energy: 12000
+    output:
+      - type: sf
+        id: VOID_DUST
+        amount: 10

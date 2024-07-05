@@ -1,0 +1,68 @@
+machine: HAIMAN_RAW_INGOT_CHANGER
+recipes:
+- name: '1'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: COPPER_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: RAW_COPPER
+    amount: 2
+- name: '2'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: RAW_GOLD
+    amount: 2
+- name: '3'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: IRON_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: RAW_IRON
+    amount: 2
+- name: '4'
+  duration: 4
+  energy: 1200
+  input:
+  - type: mc
+    id: RAW_IRON
+    amount: 1
+  output:
+  - type: mc
+    id: IRON_INGOT
+    amount: 1
+- name: '5'
+  duration: 4
+  energy: 1200
+  input:
+  - type: mc
+    id: RAW_GOLD
+    amount: 1
+  output:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 1
+- name: '6'
+  duration: 4
+  energy: 1200
+  input:
+  - type: mc
+    id: RAW_COPPER
+    amount: 1
+  output:
+  - type: mc
+    id: COPPER_INGOT
+    amount: 1

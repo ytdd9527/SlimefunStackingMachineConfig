@@ -1,0 +1,9 @@
+machine: LEAD_BEE_PRODUCTION_2
+empty:
+- name: LEAD_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: sf
+    id: LEAD_INGOT
+    amount: 4

@@ -1,0 +1,60 @@
+machine: JIHANZHIDI
+recipes:
+- name: '1'
+  duration: 1
+  energy: 512
+  input:
+  - type: mc
+    id: ICE
+    amount: 1
+  output:
+  - type: mc
+    id: PACKED_ICE
+    amount: 9
+- name: '2'
+  duration: 1
+  energy: 512
+  input:
+  - type: mc
+    id: WATER_BUCKET
+    amount: 1
+  output:
+  - type: mc
+    id: SNOW_BLOCK
+    amount: 4
+- name: '3'
+  duration: 1
+  energy: 512
+  input:
+  - type: mc
+    id: PACKED_ICE
+    amount: 4
+  output:
+  - type: mc
+    id: BLUE_ICE
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 512
+  input:
+  - type: mc
+    id: SNOW_BLOCK
+    amount: 4
+  output:
+  - type: mc
+    id: SNOWBALL
+    amount: 16
+  - type: mc
+    id: SNOWBALL
+    amount: 16
+- name: '5'
+  duration: 1
+  energy: 512
+  input:
+  - type: mc
+    id: SNOWBALL
+    amount: 16
+  output:
+  - type: mc
+    id: SNOW
+    amount: 4

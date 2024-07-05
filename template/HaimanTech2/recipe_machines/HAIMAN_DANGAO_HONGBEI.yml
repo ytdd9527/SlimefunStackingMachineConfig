@@ -1,0 +1,13 @@
+machine: HAIMAN_DANGAO_HONGBEI
+recipes:
+- name: '1'
+  duration: 100
+  energy: 12
+  input:
+  - type: sf
+    id: HM_CAKE_BREAD
+    amount: 10
+  output:
+  - type: sf
+    id: HAIMAN_BIRTHDAY_CAKE_1
+    amount: 1

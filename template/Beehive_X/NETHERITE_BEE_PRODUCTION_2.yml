@@ -1,0 +1,9 @@
+machine: NETHERITE_BEE_PRODUCTION_2
+empty:
+- name: NETHERITE_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 4

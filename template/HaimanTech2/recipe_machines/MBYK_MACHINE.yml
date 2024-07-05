@@ -1,0 +1,189 @@
+machine: MBYK_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 2
+  output:
+  - type: mc
+    id: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    amount: 1
+- name: '2'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: HEART_OF_THE_SEA
+    amount: 1
+  output:
+  - type: mc
+    id: COAST_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '3'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: SANDSTONE
+    amount: 32
+  output:
+  - type: mc
+    id: DUNE_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '4'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: END_STONE
+    amount: 64
+  output:
+  - type: mc
+    id: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '5'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: TERRACOTTA
+    amount: 32
+  output:
+  - type: mc
+    id: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '6'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: BROWN_TERRACOTTA
+    amount: 22
+  output:
+  - type: mc
+    id: RAISER_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '7'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: BLACKSTONE
+    amount: 64
+  output:
+  - type: mc
+    id: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '8'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: STONE
+    amount: 64
+  output:
+  - type: mc
+    id: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '9'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: MUD
+    amount: 64
+  output:
+  - type: mc
+    id: SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '10'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: CHISELED_DEEPSLATE
+    amount: 32
+  output:
+  - type: mc
+    id: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '11'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: POLISHED_DEEPSLATE
+    amount: 32
+  output:
+  - type: mc
+    id: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '12'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: PURPUR_PILLAR
+    amount: 32
+  output:
+  - type: mc
+    id: SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '13'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: PRISMARINE
+    amount: 32
+  output:
+  - type: mc
+    id: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '14'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: COBBLED_DEEPSLATE
+    amount: 32
+  output:
+  - type: mc
+    id: VEX_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '15'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: NETHER_BRICKS
+    amount: 32
+  output:
+  - type: mc
+    id: WARD_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '16'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: GRANITE
+    amount: 64
+  output:
+  - type: mc
+    id: WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1
+- name: '17'
+  duration: 3
+  energy: 900
+  input:
+  - type: mc
+    id: MOSSY_COBBLESTONE
+    amount: 64
+  output:
+  - type: mc
+    id: WILD_ARMOR_TRIM_SMITHING_TEMPLATE
+    amount: 1

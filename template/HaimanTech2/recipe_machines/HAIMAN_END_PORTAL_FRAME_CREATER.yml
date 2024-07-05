@@ -1,0 +1,13 @@
+machine: HAIMAN_END_PORTAL_FRAME_CREATER
+recipes:
+- name: '1'
+  duration: 20
+  energy: 90000
+  input:
+  - type: mc
+    id: CRYING_OBSIDIAN
+    amount: 5
+  output:
+  - type: mc
+    id: END_PORTAL_FRAME
+    amount: 1

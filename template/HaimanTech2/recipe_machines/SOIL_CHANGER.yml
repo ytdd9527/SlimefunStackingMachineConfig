@@ -1,0 +1,211 @@
+machine: SOIL_CHANGER
+recipes:
+- name: '1'
+  duration: 4
+  energy: 24
+  input:
+  - type: mc
+    id: COARSE_DIRT
+    amount: 1
+  output:
+  - type: mc
+    id: DIRT
+    amount: 6
+- name: '2'
+  duration: 2
+  energy: 24
+  input:
+  - type: mc
+    id: DIRT
+    amount: 1
+  output:
+  - type: mc
+    id: GRASS_BLOCK
+    amount: 1
+- name: '3'
+  duration: 3
+  energy: 24
+  input:
+  - type: mc
+    id: GRASS_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: FARMLAND
+    amount: 4
+- name: '4'
+  duration: 2
+  energy: 24
+  input:
+  - type: mc
+    id: FARMLAND
+    amount: 1
+  output:
+  - type: mc
+    id: DIRT_PATH
+    amount: 1
+- name: '5'
+  duration: 4
+  energy: 24
+  input:
+  - type: mc
+    id: WHEAT
+    amount: 4
+  output:
+  - type: mc
+    id: PODZOL
+    amount: 2
+- name: '6'
+  duration: 5
+  energy: 24
+  input:
+  - type: mc
+    id: PODZOL
+    amount: 1
+  output:
+  - type: mc
+    id: MYCELIUM
+    amount: 2
+- name: '7'
+  duration: 3
+  energy: 24
+  input:
+  - type: mc
+    id: NETHERRACK
+    amount: 1
+  output:
+  - type: mc
+    id: WARPED_NYLIUM
+    amount: 1
+- name: '8'
+  duration: 3
+  energy: 24
+  input:
+  - type: mc
+    id: WARPED_NYLIUM
+    amount: 1
+  output:
+  - type: mc
+    id: CRIMSON_NYLIUM
+    amount: 1
+- name: '9'
+  duration: 2
+  energy: 24
+  input:
+  - type: mc
+    id: SOUL_SAND
+    amount: 1
+  output:
+  - type: mc
+    id: SOUL_SOIL
+    amount: 1
+- name: '10'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: CLAY
+    amount: 1
+  output:
+  - type: mc
+    id: DIRT
+    amount: 1
+- name: '11'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: DIRT_PATH
+    amount: 1
+  output:
+  - type: mc
+    id: ROOTED_DIRT
+    amount: 1
+- name: '12'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: SAND
+    amount: 1
+  output:
+  - type: mc
+    id: RED_SAND
+    amount: 1
+- name: '13'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: RED_SAND
+    amount: 1
+  output:
+  - type: mc
+    id: SAND
+    amount: 1
+- name: '14'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 1
+  output:
+  - type: mc
+    id: MOSSY_COBBLESTONE
+    amount: 1
+- name: '15'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: MANGROVE_ROOTS
+    amount: 1
+  output:
+  - type: mc
+    id: MUDDY_MANGROVE_ROOTS
+    amount: 1
+- name: '16'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: MUD
+    amount: 1
+  output:
+  - type: mc
+    id: PACKED_MUD
+    amount: 1
+- name: '17'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: SOUL_SOIL
+    amount: 1
+  output:
+  - type: mc
+    id: SOUL_SAND
+    amount: 1
+- name: '18'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: NETHER_WART_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: WARPED_WART_BLOCK
+    amount: 1
+- name: '19'
+  duration: 1
+  energy: 24
+  input:
+  - type: mc
+    id: WARPED_WART_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: NETHER_WART_BLOCK
+    amount: 1

@@ -1,0 +1,9 @@
+machine: YINGWULUO_MACHINE
+empty:
+- name: YINGWULUO_MACHINE
+  duration: 1
+  energy: 250
+  output:
+  - type: mc
+    id: NAUTILUS_SHELL
+    amount: 2

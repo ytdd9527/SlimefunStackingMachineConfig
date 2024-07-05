@@ -1,0 +1,9 @@
+machine: ALUMINUM_BRONZE_BEE_PRODUCTION_2
+empty:
+- name: ALUMINUM_BRONZE_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: sf
+    id: ALUMINUM_BRONZE_INGOT
+    amount: 4

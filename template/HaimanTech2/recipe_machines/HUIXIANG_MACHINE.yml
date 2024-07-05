@@ -1,0 +1,35 @@
+machine: HUIXIANG_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 500
+  input:
+  - type: mc
+    id: AMETHYST_SHARD
+    amount: 1
+  output:
+  - type: mc
+    id: ECHO_SHARD
+    amount: 1
+- name: '2'
+  duration: 3
+  energy: 500
+  input:
+  - type: mc
+    id: ECHO_SHARD
+    amount: 1
+  output:
+  - type: mc
+    id: DISC_FRAGMENT_5
+    amount: 1
+- name: '3'
+  duration: 15
+  energy: 500
+  input:
+  - type: mc
+    id: COMPASS
+    amount: 1
+  output:
+  - type: mc
+    id: RECOVERY_COMPASS
+    amount: 1

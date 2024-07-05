@@ -1,0 +1,140 @@
+machine: JINSHUJGC
+recipes:
+- name: '1'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: TIN_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: TIN_PLATE
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: COPPER_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: COPPER_PLATE
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 750
+  input:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: GOLD_PLATE
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 750
+  input:
+  - type: mc
+    id: DIAMOND
+    amount: 1
+  output:
+  - type: sf
+    id: DIAMOND_PLATE
+    amount: 1
+- name: '5'
+  duration: 1
+  energy: 750
+  input:
+  - type: mc
+    id: IRON_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: IRON_PLATE
+    amount: 1
+- name: '6'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: THORIUM
+    amount: 1
+  output:
+  - type: sf
+    id: THORIUM_PLATE
+    amount: 1
+- name: '7'
+  duration: 1
+  energy: 750
+  input:
+  - type: mc
+    id: IRON_BLOCK
+    amount: 1
+  output:
+  - type: sf
+    id: MACHINE_BLOCK
+    amount: 1
+- name: '8'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: RAW_CARBON_MESH
+    amount: 1
+  output:
+  - type: sf
+    id: CARBON_PLATE
+    amount: 1
+- name: '9'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: MIXED_METAL_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: ADVANCED_ALLOY
+    amount: 1
+- name: '10'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: MACHINE_BLOCK
+    amount: 1
+  - type: sf
+    id: CARBON_PLATE
+    amount: 3
+  output:
+  - type: sf
+    id: ADVANCED_MACHINE_BLOCK
+    amount: 1
+- name: '11'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: HEJINDING_YUANPEI
+    amount: 1
+  output:
+  - type: sf
+    id: MIXED_METAL_INGOT
+    amount: 1
+- name: '12'
+  duration: 1
+  energy: 750
+  input:
+  - type: sf
+    id: IRIDIUM
+    amount: 4
+  - type: sf
+    id: ADVANCED_ALLOY
+    amount: 4
+  output:
+  - type: sf
+    id: IRIDIUM_PLATE
+    amount: 1

@@ -1,0 +1,9 @@
+machine: DAMASCUS_STEEL_BEE_PRODUCTION_2
+empty:
+- name: DAMASCUS_STEEL_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: sf
+    id: DAMASCUS_STEEL_INGOT
+    amount: 4

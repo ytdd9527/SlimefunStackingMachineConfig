@@ -1,0 +1,24 @@
+machine: HAIMAN_FOOD_FERMENTATION_MACHINE
+recipes:
+- name: '1'
+  duration: 2
+  energy: 20
+  input:
+  - type: mc
+    id: POTATO
+    amount: 4
+  output:
+  - type: mc
+    id: POISONOUS_POTATO
+    amount: 1
+- name: '2'
+  duration: 4
+  energy: 20
+  input:
+  - type: mc
+    id: SPIDER_EYE
+    amount: 1
+  output:
+  - type: mc
+    id: FERMENTED_SPIDER_EYE
+    amount: 1

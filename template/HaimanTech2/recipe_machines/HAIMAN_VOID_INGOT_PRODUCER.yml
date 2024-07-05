@@ -1,0 +1,13 @@
+machine: HAIMAN_VOID_INGOT_PRODUCER
+recipes:
+- name: '1'
+  duration: 5
+  energy: 3000
+  input:
+  - type: sf
+    id: VOID_BIT
+    amount: 64
+  output:
+  - type: sf
+    id: VOID_INGOT
+    amount: 1

@@ -1,0 +1,68 @@
+machine: YOUNI_MACHINE
+recipes:
+- name: '1'
+  duration: 0
+  energy: 280
+  input:
+  - type: mc
+    id: DIRT
+    amount: 2
+  output:
+  - type: mc
+    id: SCULK
+    amount: 2
+- name: '2'
+  duration: 2
+  energy: 280
+  input:
+  - type: mc
+    id: BLACK_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: SCULK_CATALYST
+    amount: 1
+- name: '3'
+  duration: 5
+  energy: 280
+  input:
+  - type: mc
+    id: SCULK
+    amount: 1
+  output:
+  - type: mc
+    id: SCULK_SENSOR
+    amount: 1
+- name: '4'
+  duration: 10
+  energy: 280
+  input:
+  - type: mc
+    id: SCULK_SENSOR
+    amount: 1
+  output:
+  - type: mc
+    id: CALIBRATED_SCULK_SENSOR
+    amount: 1
+- name: '5'
+  duration: 8
+  energy: 280
+  input:
+  - type: mc
+    id: STONE
+    amount: 16
+  output:
+  - type: mc
+    id: SCULK_SHRIEKER
+    amount: 1
+- name: '6'
+  duration: 8
+  energy: 280
+  input:
+  - type: mc
+    id: OAK_LEAVES
+    amount: 4
+  output:
+  - type: mc
+    id: SCULK_VEIN
+    amount: 4

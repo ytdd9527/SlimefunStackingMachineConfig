@@ -1,0 +1,9 @@
+machine: MONANG_MACHINE
+empty:
+- name: MONANG_MACHINE
+  duration: 1
+  energy: 500
+  output:
+  - type: mc
+    id: INK_SAC
+    amount: 6

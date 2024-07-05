@@ -1,0 +1,9 @@
+machine: HAIMAN_ROBOT_GENERATOR
+empty:
+- name: HAIMAN_ROBOT_GENERATOR
+  duration: 45
+  energy: 10000
+  output:
+  - type: sf
+    id: PROGRAMMABLE_ANDROID
+    amount: 2

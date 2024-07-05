@@ -1,0 +1,13 @@
+machine: LILY_PAD_MACHINE
+recipes:
+- name: '1'
+  duration: 1
+  energy: 6000
+  input:
+  - type: mc
+    id: OAK_LEAVES
+    amount: 64
+  output:
+  - type: mc
+    id: LILY_PAD
+    amount: 32

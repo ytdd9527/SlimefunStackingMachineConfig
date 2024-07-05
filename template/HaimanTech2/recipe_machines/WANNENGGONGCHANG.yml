@@ -1,0 +1,222 @@
+machine: WANNENGGONGCHANG
+recipes:
+- name: '1'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: STONE
+    amount: 4
+  output:
+  - type: mc
+    id: STONE
+    amount: 16
+- name: '2'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: DIORITE
+    amount: 4
+  output:
+  - type: mc
+    id: DIORITE
+    amount: 16
+- name: '3'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: GRANITE
+    amount: 4
+  output:
+  - type: mc
+    id: GRANITE
+    amount: 16
+- name: '4'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: ANDESITE
+    amount: 4
+  output:
+  - type: mc
+    id: ANDESITE
+    amount: 16
+- name: '5'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: SAND
+    amount: 4
+  output:
+  - type: mc
+    id: SAND
+    amount: 16
+- name: '6'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: SMOOTH_STONE
+    amount: 4
+  output:
+  - type: mc
+    id: SMOOTH_STONE
+    amount: 16
+- name: '7'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: NETHERRACK
+    amount: 4
+  output:
+  - type: mc
+    id: NETHERRACK
+    amount: 16
+- name: '8'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: BASALT
+    amount: 4
+  output:
+  - type: mc
+    id: BASALT
+    amount: 16
+- name: '9'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: BLACKSTONE
+    amount: 4
+  output:
+  - type: mc
+    id: BLACKSTONE
+    amount: 16
+- name: '10'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: OBSIDIAN
+    amount: 4
+  output:
+  - type: mc
+    id: OBSIDIAN
+    amount: 16
+- name: '11'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 2
+  output:
+  - type: mc
+    id: COBBLESTONE
+    amount: 64
+- name: '12'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: GRAVEL
+    amount: 4
+  output:
+  - type: mc
+    id: GRAVEL
+    amount: 16
+- name: '13'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: RED_SAND
+    amount: 4
+  output:
+  - type: mc
+    id: RED_SAND
+    amount: 16
+- name: '14'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: COBBLED_DEEPSLATE
+    amount: 4
+  output:
+  - type: mc
+    id: COBBLED_DEEPSLATE
+    amount: 16
+- name: '15'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: CALCITE
+    amount: 4
+  output:
+  - type: mc
+    id: CALCITE
+    amount: 16
+- name: '16'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: TUFF
+    amount: 4
+  output:
+  - type: mc
+    id: TUFF
+    amount: 16
+- name: '17'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: PRISMARINE
+    amount: 4
+  output:
+  - type: mc
+    id: PRISMARINE
+    amount: 16
+- name: '18'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: END_STONE
+    amount: 4
+  output:
+  - type: mc
+    id: END_STONE
+    amount: 16
+- name: '19'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: CLAY
+    amount: 4
+  output:
+  - type: mc
+    id: CLAY
+    amount: 16
+- name: '20'
+  duration: 1
+  energy: 6800
+  input:
+  - type: mc
+    id: GRASS_BLOCK
+    amount: 4
+  output:
+  - type: mc
+    id: GRASS_BLOCK
+    amount: 16

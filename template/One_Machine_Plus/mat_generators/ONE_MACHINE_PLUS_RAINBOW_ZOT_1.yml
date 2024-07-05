@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_RAINBOW_ZOT_1
+empty:
+- name: ONE_MACHINE_PLUS_RAINBOW_ZOT_1
+  duration: 6
+  energy: 1024
+  output:
+  - type: sf
+    id: RAINBOW_ZOT
+    amount: 4

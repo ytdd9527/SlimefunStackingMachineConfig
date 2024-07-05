@@ -1,0 +1,9 @@
+machine: EMERALD_BEE_PRODUCTION_1
+empty:
+- name: EMERALD_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: mc
+    id: EMERALD
+    amount: 1

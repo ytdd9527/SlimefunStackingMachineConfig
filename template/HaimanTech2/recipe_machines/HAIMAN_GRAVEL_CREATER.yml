@@ -1,0 +1,13 @@
+machine: HAIMAN_GRAVEL_CREATER
+recipes:
+- name: '1'
+  duration: 0
+  energy: 1000
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 64
+  output:
+  - type: mc
+    id: GRAVEL
+    amount: 64

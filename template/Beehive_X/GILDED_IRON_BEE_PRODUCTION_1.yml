@@ -1,0 +1,9 @@
+machine: GILDED_IRON_BEE_PRODUCTION_1
+empty:
+- name: GILDED_IRON_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: GILDED_IRON
+    amount: 1

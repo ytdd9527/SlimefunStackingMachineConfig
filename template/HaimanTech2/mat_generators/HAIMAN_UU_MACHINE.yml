@@ -1,0 +1,9 @@
+machine: HAIMAN_UU_MACHINE
+empty:
+- name: HAIMAN_UU_MACHINE
+  duration: 1
+  energy: 3600
+  output:
+  - type: sf
+    id: UU_MATTER
+    amount: 4

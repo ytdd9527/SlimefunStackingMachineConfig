@@ -1,0 +1,9 @@
+machine: DIAMOND_PICKAXE_MACHINE
+empty:
+- name: DIAMOND_PICKAXE_MACHINE
+  duration: 8
+  energy: 32500
+  output:
+  - type: mc
+    id: DIAMOND_PICKAXE
+    amount: 32

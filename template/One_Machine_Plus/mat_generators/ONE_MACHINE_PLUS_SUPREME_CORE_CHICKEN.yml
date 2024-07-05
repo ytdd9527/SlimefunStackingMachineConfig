@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_SUPREME_CORE_CHICKEN
+empty:
+- name: ONE_MACHINE_PLUS_SUPREME_CORE_CHICKEN
+  duration: 3
+  energy: 600
+  output:
+  - type: sf
+    id: SUPREME_CORE_CHICKEN
+    amount: 1

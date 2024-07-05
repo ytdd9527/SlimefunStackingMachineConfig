@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_SOLAR_GENERATOR_1
+empty:
+- name: ONE_MACHINE_PLUS_SOLAR_GENERATOR_1
+  duration: 1
+  energy: 128
+  output:
+  - type: sf
+    id: SOLAR_GENERATOR_4
+    amount: 8

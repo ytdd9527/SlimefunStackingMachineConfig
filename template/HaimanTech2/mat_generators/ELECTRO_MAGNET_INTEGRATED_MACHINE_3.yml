@@ -1,0 +1,9 @@
+machine: ELECTRO_MAGNET_INTEGRATED_MACHINE_3
+empty:
+- name: ELECTRO_MAGNET_INTEGRATED_MACHINE_3
+  duration: 5
+  energy: 70000
+  output:
+  - type: sf
+    id: ELECTRO_MAGNET
+    amount: 12

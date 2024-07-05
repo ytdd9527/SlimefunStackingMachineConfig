@@ -1,0 +1,9 @@
+machine: ZHONG_MACHINE
+empty:
+- name: ZHONG_MACHINE
+  duration: 1
+  energy: 65
+  output:
+  - type: mc
+    id: CLOCK
+    amount: 1

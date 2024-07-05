@@ -1,0 +1,9 @@
+machine: COAL_BEE_PRODUCTION_2
+empty:
+- name: COAL_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: mc
+    id: COAL
+    amount: 4

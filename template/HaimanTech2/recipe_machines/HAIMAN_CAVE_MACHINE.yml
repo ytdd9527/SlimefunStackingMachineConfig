@@ -1,0 +1,101 @@
+machine: HAIMAN_CAVE_MACHINE
+recipes:
+- name: '1'
+  duration: 300
+  energy: 60
+  input:
+  - type: mc
+    id: DRIPSTONE_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: POINTED_DRIPSTONE
+    amount: 7
+- name: '2'
+  duration: 1
+  energy: 60
+  input:
+  - type: mc
+    id: POINTED_DRIPSTONE
+    amount: 4
+  output:
+  - type: mc
+    id: DRIPSTONE_BLOCK
+    amount: 1
+- name: '3'
+  duration: 120
+  energy: 60
+  input:
+  - type: mc
+    id: AMETHYST_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: BUDDING_AMETHYST
+    amount: 1
+- name: '4'
+  duration: 60
+  energy: 60
+  input:
+  - type: mc
+    id: BUDDING_AMETHYST
+    amount: 1
+  output:
+  - type: mc
+    id: SMALL_AMETHYST_BUD
+    amount: 4
+- name: '5'
+  duration: 30
+  energy: 60
+  input:
+  - type: mc
+    id: SMALL_AMETHYST_BUD
+    amount: 1
+  output:
+  - type: mc
+    id: MEDIUM_AMETHYST_BUD
+    amount: 1
+- name: '6'
+  duration: 30
+  energy: 60
+  input:
+  - type: mc
+    id: MEDIUM_AMETHYST_BUD
+    amount: 1
+  output:
+  - type: mc
+    id: LARGE_AMETHYST_BUD
+    amount: 1
+- name: '7'
+  duration: 30
+  energy: 60
+  input:
+  - type: mc
+    id: LARGE_AMETHYST_BUD
+    amount: 1
+  output:
+  - type: mc
+    id: AMETHYST_CLUSTER
+    amount: 1
+- name: '8'
+  duration: 3
+  energy: 60
+  input:
+  - type: mc
+    id: AMETHYST_CLUSTER
+    amount: 1
+  output:
+  - type: mc
+    id: AMETHYST_SHARD
+    amount: 6
+- name: '9'
+  duration: 1
+  energy: 60
+  input:
+  - type: mc
+    id: AMETHYST_SHARD
+    amount: 4
+  output:
+  - type: mc
+    id: AMETHYST_BLOCK
+    amount: 1

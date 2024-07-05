@@ -1,0 +1,79 @@
+machine: INFESTED_MACHINE
+recipes:
+- name: '1'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_COBBLESTONE
+    amount: 1
+- name: '2'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: STONE
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_STONE
+    amount: 1
+- name: '3'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: STONE_BRICKS
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_STONE_BRICKS
+    amount: 1
+- name: '4'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: MOSSY_STONE_BRICKS
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_MOSSY_STONE_BRICKS
+    amount: 1
+- name: '5'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: CRACKED_STONE_BRICKS
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_CRACKED_STONE_BRICKS
+    amount: 1
+- name: '6'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: CHISELED_STONE_BRICKS
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_CHISELED_STONE_BRICKS
+    amount: 1
+- name: '7'
+  duration: 5
+  energy: 32
+  input:
+  - type: mc
+    id: DEEPSLATE
+    amount: 1
+  output:
+  - type: mc
+    id: INFESTED_DEEPSLATE
+    amount: 1

@@ -1,0 +1,9 @@
+machine: HAIMAN_U_GENERATOR
+empty:
+- name: HAIMAN_U_GENERATOR
+  duration: 1
+  energy: 6000
+  output:
+  - type: sf
+    id: URANIUM
+    amount: 48

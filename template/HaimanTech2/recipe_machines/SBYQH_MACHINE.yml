@@ -1,0 +1,13 @@
+machine: SBYQH_MACHINE
+recipes:
+- name: '1'
+  duration: 500
+  energy: 28000
+  input:
+  - type: mc
+    id: DEEPSLATE
+    amount: 1
+  output:
+  - type: mc
+    id: REINFORCED_DEEPSLATE
+    amount: 1

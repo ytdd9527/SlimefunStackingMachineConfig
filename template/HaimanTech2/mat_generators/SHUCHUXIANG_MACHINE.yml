@@ -1,0 +1,9 @@
+machine: SHUCHUXIANG_MACHINE
+empty:
+- name: SHUCHUXIANG_MACHINE
+  duration: 1
+  energy: 400
+  output:
+  - type: sf
+    id: OUTPUT_CHEST
+    amount: 2

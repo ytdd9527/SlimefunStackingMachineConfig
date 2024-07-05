@@ -1,0 +1,9 @@
+machine: HAIMAN_SHULKER_BOX_MACHINE
+empty:
+- name: HAIMAN_SHULKER_BOX_MACHINE
+  duration: 7
+  energy: 8000
+  output:
+  - type: mc
+    id: SHULKER_BOX
+    amount: 1

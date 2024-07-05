@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_SUPREME_CORE_PURPLE
+empty:
+- name: ONE_MACHINE_PLUS_SUPREME_CORE_PURPLE
+  duration: 3
+  energy: 600
+  output:
+  - type: sf
+    id: SUPREME_CORE_PURPLE
+    amount: 1

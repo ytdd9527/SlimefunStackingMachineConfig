@@ -1,0 +1,129 @@
+machine: HAIMAN_FOXY_PRODUCER
+recipes:
+- name: '1'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: BUCKET
+    amount: 10
+  output:
+  - type: sf
+    id: BLOOD
+    amount: 2
+- name: '2'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: RABBIT_FOOT
+    amount: 12
+  output:
+  - type: sf
+    id: CURSED_RABBIT_PAW
+    amount: 1
+- name: '3'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: PLAYER_HEAD
+    amount: 16
+  output:
+  - type: sf
+    id: HUMAN_SKULL
+    amount: 1
+- name: '4'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: TROPICAL_FISH
+    amount: 32
+  output:
+  - type: sf
+    id: TROPICAL_FISH_SCALE
+    amount: 1
+- name: '5'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: SWEET_BERRIES
+    amount: 64
+  output:
+  - type: sf
+    id: POLAR_FOX_HIDE
+    amount: 1
+- name: '6'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: MAGMA_CREAM
+    amount: 24
+  output:
+  - type: sf
+    id: MAGMA_ESSENCE
+    amount: 1
+- name: '7'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: FEATHER
+    amount: 64
+  output:
+  - type: sf
+    id: PARROT_FEATHER
+    amount: 1
+- name: '8'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: HEART_OF_THE_SEA
+    amount: 4
+  output:
+  - type: sf
+    id: POSEIDONS_BLESSING
+    amount: 1
+- name: '9'
+  duration: 180
+  energy: 1200
+  input:
+  - type: sf
+    id: CELESTIAL_SWORD
+    amount: 1
+  output:
+  - type: sf
+    id: CELESTIAL_SWORD
+    amount: 1
+  - type: sf
+    id: CELESTIAL_SHARD
+    amount: 1
+- name: '10'
+  duration: 180
+  energy: 1200
+  input:
+  - type: sf
+    id: CURSED_SWORD
+    amount: 1
+  output:
+  - type: sf
+    id: CURSED_SWORD
+    amount: 1
+  - type: sf
+    id: CURSED_SHARD
+    amount: 1
+- name: '11'
+  duration: 6
+  energy: 1200
+  input:
+  - type: mc
+    id: BONE
+    amount: 64
+  output:
+  - type: sf
+    id: UNHOLY_WITHER_SKELETON_BONE
+    amount: 1

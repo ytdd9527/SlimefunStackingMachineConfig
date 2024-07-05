@@ -1,0 +1,9 @@
+machine: NETHERITE_PICKAXE_MACHINE
+empty:
+- name: NETHERITE_PICKAXE_MACHINE
+  duration: 8
+  energy: 52500
+  output:
+  - type: mc
+    id: NETHERITE_PICKAXE
+    amount: 20

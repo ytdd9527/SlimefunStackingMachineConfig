@@ -1,0 +1,9 @@
+machine: HAIMAN_BASIC_PRODUCER
+empty:
+- name: HAIMAN_BASIC_PRODUCER
+  duration: 2
+  energy: 240
+  output:
+  - type: sf
+    id: BASIC_CIRCUIT_BOARD
+    amount: 1

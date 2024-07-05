@@ -1,0 +1,167 @@
+machine: HAIMAN_CORAL_PRODUCER
+recipes:
+- name: '1'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: TUBE_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: TUBE_CORAL
+    amount: 2
+- name: '2'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: BRAIN_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: BRAIN_CORAL
+    amount: 2
+- name: '3'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: BUBBLE_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: BUBBLE_CORAL
+    amount: 2
+- name: '4'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: FIRE_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: FIRE_CORAL
+    amount: 2
+- name: '5'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: HORN_CORAL
+    amount: 1
+  output:
+  - type: mc
+    id: HORN_CORAL
+    amount: 2
+- name: '6'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: TUBE_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: TUBE_CORAL_FAN
+    amount: 2
+- name: '7'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: BUBBLE_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: BUBBLE_CORAL_FAN
+    amount: 2
+- name: '8'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: FIRE_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: FIRE_CORAL_FAN
+    amount: 2
+- name: '9'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: HORN_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: HORN_CORAL_FAN
+    amount: 2
+- name: '10'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: BRAIN_CORAL_FAN
+    amount: 1
+  output:
+  - type: mc
+    id: BRAIN_CORAL_FAN
+    amount: 2
+- name: '11'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: TUBE_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: TUBE_CORAL_BLOCK
+    amount: 2
+- name: '12'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: BRAIN_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: BRAIN_CORAL_BLOCK
+    amount: 2
+- name: '13'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: FIRE_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: FIRE_CORAL_BLOCK
+    amount: 2
+- name: '14'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: HORN_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: HORN_CORAL_BLOCK
+    amount: 2
+- name: '15'
+  duration: 6
+  energy: 60
+  input:
+  - type: mc
+    id: BUBBLE_CORAL_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: BUBBLE_CORAL_BLOCK
+    amount: 2

@@ -1,0 +1,35 @@
+machine: SHUAGUAILONG_MACHINE
+recipes:
+- name: '1'
+  duration: 45
+  energy: 60000
+  input:
+  - type: mc
+    id: CHAIN
+    amount: 64
+  output:
+  - type: mc
+    id: SPAWNER
+    amount: 1
+- name: '2'
+  duration: 45
+  energy: 60000
+  input:
+  - type: mc
+    id: SPAWNER
+    amount: 1
+  output:
+  - type: sf
+    id: BROKEN_SPAWNER
+    amount: 1
+- name: '3'
+  duration: 50
+  energy: 60000
+  input:
+  - type: sf
+    id: BROKEN_SPAWNER
+    amount: 1
+  output:
+  - type: sf
+    id: REINFORCED_SPAWNER
+    amount: 1

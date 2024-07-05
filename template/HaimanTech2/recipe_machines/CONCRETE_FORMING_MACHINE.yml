@@ -1,0 +1,178 @@
+machine: CONCRETE_FORMING_MACHINE
+recipes:
+- name: '1'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: WHITE_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: WHITE_CONCRETE
+    amount: 64
+- name: '2'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: ORANGE_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: ORANGE_CONCRETE
+    amount: 64
+- name: '3'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: MAGENTA_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: MAGENTA_CONCRETE
+    amount: 64
+- name: '4'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: LIGHT_BLUE_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: LIGHT_BLUE_CONCRETE
+    amount: 64
+- name: '5'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: YELLOW_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: YELLOW_CONCRETE
+    amount: 64
+- name: '6'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: LIME_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: LIME_CONCRETE
+    amount: 64
+- name: '7'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: PINK_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: PINK_CONCRETE
+    amount: 64
+- name: '8'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: GRAY_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: GRAY_CONCRETE
+    amount: 64
+- name: '9'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: LIGHT_GRAY_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: LIGHT_GRAY_CONCRETE
+    amount: 64
+- name: '10'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: CYAN_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: CYAN_CONCRETE
+    amount: 64
+- name: '11'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: PURPLE_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: PURPLE_CONCRETE
+    amount: 64
+- name: '12'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: BLUE_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: BLUE_CONCRETE
+    amount: 64
+- name: '13'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: BROWN_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: BROWN_CONCRETE
+    amount: 64
+- name: '14'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: GREEN_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: GREEN_CONCRETE
+    amount: 64
+- name: '15'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: RED_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: RED_CONCRETE
+    amount: 64
+- name: '16'
+  duration: 0
+  energy: 25
+  input:
+  - type: mc
+    id: BLACK_CONCRETE_POWDER
+    amount: 64
+  output:
+  - type: mc
+    id: BLACK_CONCRETE
+    amount: 64

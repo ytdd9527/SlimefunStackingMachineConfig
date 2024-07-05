@@ -1,0 +1,101 @@
+machine: NONE_NBT_MACHINE
+recipes:
+- name: '1'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: GUNPOWDER
+    amount: 1
+  output:
+  - type: mc
+    id: FIREWORK_STAR
+    amount: 1
+- name: '2'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: POTION
+    amount: 1
+  output:
+  - type: mc
+    id: SPLASH_POTION
+    amount: 1
+- name: '3'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 1
+  output:
+  - type: mc
+    id: POTION
+    amount: 1
+- name: '4'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: SPLASH_POTION
+    amount: 1
+  output:
+  - type: mc
+    id: LINGERING_POTION
+    amount: 1
+- name: '5'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: MAP
+    amount: 1
+  output:
+  - type: mc
+    id: FILLED_MAP
+    amount: 1
+- name: '6'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: ARROW
+    amount: 1
+  output:
+  - type: mc
+    id: TIPPED_ARROW
+    amount: 1
+- name: '7'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: FIREWORK_STAR
+    amount: 1
+  output:
+  - type: mc
+    id: FIREWORK_ROCKET
+    amount: 1
+- name: '8'
+  duration: 6
+  energy: 30
+  input:
+  - type: mc
+    id: BOWL
+    amount: 1
+  output:
+  - type: mc
+    id: SUSPICIOUS_STEW
+    amount: 1
+- name: '9'
+  duration: 10
+  energy: 30
+  input:
+  - type: mc
+    id: STONE
+    amount: 1
+  output:
+  - type: mc
+    id: GOAT_HORN
+    amount: 1

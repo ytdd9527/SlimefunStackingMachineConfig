@@ -1,0 +1,9 @@
+machine: MINECART_MACHINE
+empty:
+- name: MINECART_MACHINE
+  duration: 1
+  energy: 4500
+  output:
+  - type: mc
+    id: MINECART
+    amount: 64

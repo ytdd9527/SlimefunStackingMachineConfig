@@ -1,0 +1,30 @@
+machine: RAIL_INTEGRATED_MACHINE
+recipes:
+- name: '1'
+  duration: 5
+  energy: 60
+  input:
+  - type: sf
+    id: IRON_DUST
+    amount: 5
+  - type: mc
+    id: OAK_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: RAIL
+    amount: 64
+- name: '2'
+  duration: 5
+  energy: 60
+  input:
+  - type: sf
+    id: GOLD_DUST
+    amount: 15
+  - type: mc
+    id: REDSTONE
+    amount: 16
+  output:
+  - type: mc
+    id: POWERED_RAIL
+    amount: 64

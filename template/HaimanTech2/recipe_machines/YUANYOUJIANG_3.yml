@@ -1,0 +1,13 @@
+machine: YUANYOUJIANG_3
+recipes:
+- name: '1'
+  duration: 0
+  energy: 7200
+  input:
+  - type: mc
+    id: BUCKET
+    amount: 2
+  output:
+  - type: sf
+    id: BUCKET_OF_OIL
+    amount: 48

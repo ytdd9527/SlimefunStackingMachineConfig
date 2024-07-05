@@ -1,0 +1,24 @@
+machine: HAIMAN_GLOWER
+recipes:
+- name: '1'
+  duration: 7
+  energy: 50
+  input:
+  - type: mc
+    id: INK_SAC
+    amount: 1
+  output:
+  - type: mc
+    id: GLOW_INK_SAC
+    amount: 1
+- name: '2'
+  duration: 14
+  energy: 50
+  input:
+  - type: mc
+    id: ITEM_FRAME
+    amount: 1
+  output:
+  - type: mc
+    id: GLOW_ITEM_FRAME
+    amount: 1

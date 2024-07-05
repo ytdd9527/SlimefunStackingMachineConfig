@@ -1,0 +1,9 @@
+machine: DIAMOND_BEE_PRODUCTION_1
+empty:
+- name: DIAMOND_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: mc
+    id: DIAMOND
+    amount: 1

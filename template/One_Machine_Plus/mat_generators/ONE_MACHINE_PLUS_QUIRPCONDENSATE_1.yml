@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_QUIRPCONDENSATE_1
+empty:
+- name: ONE_MACHINE_PLUS_QUIRPCONDENSATE_1
+  duration: 6
+  energy: 1024
+  output:
+  - type: sf
+    id: QUIRPCONDENSATE
+    amount: 4

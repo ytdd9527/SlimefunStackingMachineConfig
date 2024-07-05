@@ -1,0 +1,9 @@
+machine: GOLD_BEE_PRODUCTION_1
+empty:
+- name: GOLD_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 1

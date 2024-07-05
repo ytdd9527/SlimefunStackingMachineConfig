@@ -1,0 +1,189 @@
+machine: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+recipes:
+- name: '1'
+  duration: 450
+  energy: 1800
+  input:
+  - type: mc
+    id: SUGAR_CANE
+    amount: 1
+  output:
+  - type: mc
+    id: SLIME_BALL
+    amount: 1
+- name: '2'
+  duration: 450
+  energy: 1800
+  input:
+  - type: mc
+    id: POPPY
+    amount: 1
+  output:
+  - type: mc
+    id: WITHER_ROSE
+    amount: 1
+- name: '3'
+  duration: 500
+  energy: 1800
+  input:
+  - type: mc
+    id: CHORUS_FRUIT
+    amount: 1
+  output:
+  - type: mc
+    id: CHORUS_PLANT
+    amount: 1
+- name: '4'
+  duration: 600
+  energy: 1800
+  input:
+  - type: mc
+    id: EGG
+    amount: 1
+  output:
+  - type: mc
+    id: TURTLE_EGG
+    amount: 1
+- name: '5'
+  duration: 650
+  energy: 1800
+  input:
+  - type: mc
+    id: COD
+    amount: 1
+  output:
+  - type: mc
+    id: NAUTILUS_SHELL
+    amount: 1
+- name: '6'
+  duration: 420
+  energy: 1800
+  input:
+  - type: mc
+    id: SUGAR
+    amount: 1
+  output:
+  - type: mc
+    id: HONEYCOMB
+    amount: 1
+- name: '7'
+  duration: 1200
+  energy: 1800
+  input:
+  - type: mc
+    id: MUSIC_DISC_11
+    amount: 1
+  output:
+  - type: mc
+    id: MUSIC_DISC_PIGSTEP
+    amount: 1
+- name: '8'
+  duration: 380
+  energy: 1800
+  input:
+  - type: mc
+    id: CACTUS
+    amount: 1
+  output:
+  - type: mc
+    id: BAMBOO
+    amount: 1
+- name: '9'
+  duration: 420
+  energy: 1800
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 1
+  output:
+  - type: mc
+    id: EXPERIENCE_BOTTLE
+    amount: 1
+- name: '10'
+  duration: 800
+  energy: 1800
+  input:
+  - type: mc
+    id: EXPERIENCE_BOTTLE
+    amount: 1
+  output:
+  - type: mc
+    id: DRAGON_BREATH
+    amount: 1
+- name: '11'
+  duration: 720
+  energy: 1800
+  input:
+  - type: mc
+    id: FEATHER
+    amount: 1
+  output:
+  - type: mc
+    id: PHANTOM_MEMBRANE
+    amount: 1
+- name: '12'
+  duration: 480
+  energy: 1800
+  input:
+  - type: mc
+    id: CARROT
+    amount: 1
+  output:
+  - type: mc
+    id: RABBIT_FOOT
+    amount: 1
+- name: '13'
+  duration: 520
+  energy: 1800
+  input:
+  - type: mc
+    id: STRING
+    amount: 1
+  output:
+  - type: mc
+    id: COBWEB
+    amount: 1
+- name: '14'
+  duration: 260
+  energy: 1800
+  input:
+  - type: mc
+    id: BLUE_DYE
+    amount: 1
+  output:
+  - type: mc
+    id: PRISMARINE_SHARD
+    amount: 1
+- name: '15'
+  duration: 260
+  energy: 1800
+  input:
+  - type: mc
+    id: CHORUS_PLANT
+    amount: 1
+  output:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 1
+- name: '16'
+  duration: 900
+  energy: 1800
+  input:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 1
+  output:
+  - type: mc
+    id: SHULKER_SHELL
+    amount: 1
+- name: '17'
+  duration: 260
+  energy: 1800
+  input:
+  - type: mc
+    id: PRISMARINE_SHARD
+    amount: 1
+  output:
+  - type: mc
+    id: PRISMARINE_CRYSTALS
+    amount: 1

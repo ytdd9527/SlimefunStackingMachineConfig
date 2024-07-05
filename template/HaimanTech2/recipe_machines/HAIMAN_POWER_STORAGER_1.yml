@@ -1,0 +1,13 @@
+machine: HAIMAN_POWER_STORAGER_1
+recipes:
+- name: '1'
+  duration: 1
+  energy: 1136
+  input:
+  - type: sf
+    id: HAIMAN_ELECTRIC_UNIT_EMPTY
+    amount: 1
+  output:
+  - type: sf
+    id: HAIMAN_ELECTRIC_UNIT_FULL
+    amount: 1

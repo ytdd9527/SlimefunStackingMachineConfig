@@ -1,0 +1,13 @@
+machine: GJJLL
+recipes:
+- name: '1'
+  duration: 0
+  energy: 30
+  input:
+  - type: mc
+    id: IRON_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: REFINED_IRON
+    amount: 1

@@ -1,0 +1,68 @@
+machine: HAIMAN_BANNER_PATTERN_PRODUCER
+recipes:
+- name: '1'
+  duration: 4
+  energy: 240
+  input:
+  - type: mc
+    id: OXEYE_DAISY
+    amount: 1
+  output:
+  - type: mc
+    id: FLOWER_BANNER_PATTERN
+    amount: 1
+- name: '2'
+  duration: 4
+  energy: 240
+  input:
+  - type: mc
+    id: ENCHANTED_GOLDEN_APPLE
+    amount: 1
+  output:
+  - type: mc
+    id: MOJANG_BANNER_PATTERN
+    amount: 1
+- name: '3'
+  duration: 100
+  energy: 240
+  input:
+  - type: mc
+    id: GRASS_BLOCK
+    amount: 6
+  output:
+  - type: mc
+    id: GLOBE_BANNER_PATTERN
+    amount: 1
+- name: '4'
+  duration: 4
+  energy: 240
+  input:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 1
+  output:
+  - type: mc
+    id: SKULL_BANNER_PATTERN
+    amount: 1
+- name: '5'
+  duration: 4
+  energy: 240
+  input:
+  - type: mc
+    id: CREEPER_HEAD
+    amount: 1
+  output:
+  - type: mc
+    id: CREEPER_BANNER_PATTERN
+    amount: 1
+- name: '6'
+  duration: 200
+  energy: 240
+  input:
+  - type: mc
+    id: GOLD_BLOCK
+    amount: 24
+  output:
+  - type: mc
+    id: PIGLIN_BANNER_PATTERN
+    amount: 1

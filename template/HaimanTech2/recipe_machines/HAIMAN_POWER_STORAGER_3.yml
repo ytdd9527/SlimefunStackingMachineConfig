@@ -1,0 +1,35 @@
+machine: HAIMAN_POWER_STORAGER_3
+recipes:
+- name: '1'
+  duration: 1
+  energy: 6628035
+  input:
+  - type: sf
+    id: HAIMAN_ELECTRIC_UNIT_EMPTY
+    amount: 64
+  output:
+  - type: sf
+    id: HAIMAN_ELECTRIC_UNIT_FULL
+    amount: 64
+- name: '2'
+  duration: 1
+  energy: 6628035
+  input:
+  - type: sf
+    id: KULUN_ELECTRIC_UNIT_EMPTY
+    amount: 64
+  output:
+  - type: sf
+    id: KULUN_ELECTRIC_UNIT_FULL
+    amount: 64
+- name: '3'
+  duration: 1
+  energy: 6628035
+  input:
+  - type: sf
+    id: LEIYI_ELECTRIC_UNIT_EMPTY
+    amount: 1
+  output:
+  - type: sf
+    id: LEIYI_ELECTRIC_UNIT_FULL
+    amount: 1

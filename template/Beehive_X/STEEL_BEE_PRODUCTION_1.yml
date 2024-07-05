@@ -1,0 +1,9 @@
+machine: STEEL_BEE_PRODUCTION_1
+empty:
+- name: STEEL_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: STEEL_INGOT
+    amount: 1

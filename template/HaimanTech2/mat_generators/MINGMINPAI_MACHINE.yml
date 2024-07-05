@@ -1,0 +1,9 @@
+machine: MINGMINPAI_MACHINE
+empty:
+- name: MINGMINPAI_MACHINE
+  duration: 1
+  energy: 5500
+  output:
+  - type: mc
+    id: NAME_TAG
+    amount: 4

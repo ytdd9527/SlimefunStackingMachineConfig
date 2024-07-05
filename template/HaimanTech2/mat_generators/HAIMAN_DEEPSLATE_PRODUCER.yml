@@ -1,0 +1,9 @@
+machine: HAIMAN_DEEPSLATE_PRODUCER
+empty:
+- name: HAIMAN_DEEPSLATE_PRODUCER
+  duration: 2
+  energy: 8
+  output:
+  - type: mc
+    id: DEEPSLATE
+    amount: 6

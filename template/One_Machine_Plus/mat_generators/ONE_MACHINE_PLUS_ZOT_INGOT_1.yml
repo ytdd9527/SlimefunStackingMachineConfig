@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_ZOT_INGOT_1
+empty:
+- name: ONE_MACHINE_PLUS_ZOT_INGOT_1
+  duration: 4
+  energy: 1024
+  output:
+  - type: sf
+    id: ZOT_INGOT
+    amount: 4

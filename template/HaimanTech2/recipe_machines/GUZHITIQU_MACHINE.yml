@@ -1,0 +1,68 @@
+machine: GUZHITIQU_MACHINE
+recipes:
+- name: '1'
+  duration: 0
+  energy: 50
+  input:
+  - type: mc
+    id: BONE
+    amount: 1
+  output:
+  - type: mc
+    id: BONE_MEAL
+    amount: 4
+- name: '2'
+  duration: 0
+  energy: 50
+  input:
+  - type: mc
+    id: BONE_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: BONE_MEAL
+    amount: 12
+- name: '3'
+  duration: 0
+  energy: 50
+  input:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 1
+  output:
+  - type: mc
+    id: BONE_MEAL
+    amount: 16
+- name: '4'
+  duration: 0
+  energy: 50
+  input:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 1
+  output:
+  - type: mc
+    id: BONE_MEAL
+    amount: 32
+- name: '5'
+  duration: 0
+  energy: 50
+  input:
+  - type: mc
+    id: ARROW
+    amount: 1
+  output:
+  - type: mc
+    id: BONE_MEAL
+    amount: 2
+- name: '6'
+  duration: 0
+  energy: 50
+  input:
+  - type: mc
+    id: PLAYER_HEAD
+    amount: 1
+  output:
+  - type: mc
+    id: BONE_MEAL
+    amount: 48

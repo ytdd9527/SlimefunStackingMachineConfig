@@ -1,0 +1,13 @@
+machine: HAIMAN_RESISTANCE
+recipes:
+- name: '1'
+  duration: 1200
+  energy: 2147483647
+  input:
+  - type: mc
+    id: REDSTONE
+    amount: 1
+  output:
+  - type: mc
+    id: REDSTONE
+    amount: 1

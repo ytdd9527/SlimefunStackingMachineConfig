@@ -1,0 +1,13 @@
+machine: HAIMAN_INFINITY_OIL_PUMP
+recipes:
+- name: '1'
+  duration: 5
+  energy: 800
+  input:
+  - type: mc
+    id: BUCKET
+    amount: 1
+  output:
+  - type: sf
+    id: BUCKET_OF_OIL
+    amount: 1

@@ -1,0 +1,35 @@
+machine: HAIMAN_STONE_CHANGER
+recipes:
+- name: '1'
+  duration: 6
+  energy: 16
+  input:
+  - type: mc
+    id: OAK_SLAB
+    amount: 6
+  output:
+  - type: mc
+    id: PETRIFIED_OAK_SLAB
+    amount: 6
+- name: '2'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 64
+  output:
+  - type: mc
+    id: BLACKSTONE
+    amount: 64
+- name: '3'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: OAK_LEAVES
+    amount: 32
+  output:
+  - type: mc
+    id: STONE
+    amount: 64

@@ -1,0 +1,9 @@
+machine: MYZHENZHU_MACHINE
+empty:
+- name: MYZHENZHU_MACHINE
+  duration: 1
+  energy: 25
+  output:
+  - type: mc
+    id: ENDER_PEARL
+    amount: 16

@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_ADVANCED_ALLOY_1
+empty:
+- name: ONE_MACHINE_PLUS_ADVANCED_ALLOY_1
+  duration: 1
+  energy: 1024
+  output:
+  - type: sf
+    id: ADVANCED_ALLOY
+    amount: 4

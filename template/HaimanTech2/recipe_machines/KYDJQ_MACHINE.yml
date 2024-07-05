@@ -1,0 +1,24 @@
+machine: KYDJQ_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 800
+  input:
+  - type: mc
+    id: SAND
+    amount: 8
+  output:
+  - type: mc
+    id: SUSPICIOUS_SAND
+    amount: 1
+- name: '2'
+  duration: 3
+  energy: 800
+  input:
+  - type: mc
+    id: GRAVEL
+    amount: 8
+  output:
+  - type: mc
+    id: SUSPICIOUS_GRAVEL
+    amount: 1

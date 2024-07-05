@@ -1,0 +1,9 @@
+machine: REINFORCED_ALLOY_BEE_PRODUCTION_2
+empty:
+- name: REINFORCED_ALLOY_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: sf
+    id: REINFORCED_ALLOY_INGOT
+    amount: 4

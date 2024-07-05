@@ -1,0 +1,9 @@
+machine: DURALUMIN_BEE_PRODUCTION_1
+empty:
+- name: DURALUMIN_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: DURALUMIN_INGOT
+    amount: 1

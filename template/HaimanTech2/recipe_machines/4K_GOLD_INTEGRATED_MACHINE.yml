@@ -1,0 +1,13 @@
+machine: 4K_GOLD_INTEGRATED_MACHINE
+recipes:
+- name: '1'
+  duration: 5
+  energy: 200
+  input:
+  - type: sf
+    id: GOLD_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: GOLD_4K
+    amount: 64

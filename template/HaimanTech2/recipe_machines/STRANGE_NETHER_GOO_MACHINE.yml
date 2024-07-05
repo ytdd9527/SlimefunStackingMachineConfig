@@ -1,0 +1,13 @@
+machine: STRANGE_NETHER_GOO_MACHINE
+recipes:
+- name: '1'
+  duration: 5
+  energy: 200
+  input:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 3
+  output:
+  - type: sf
+    id: STRANGE_NETHER_GOO
+    amount: 1

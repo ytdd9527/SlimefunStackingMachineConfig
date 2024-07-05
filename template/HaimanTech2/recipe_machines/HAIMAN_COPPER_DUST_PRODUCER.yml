@@ -1,0 +1,90 @@
+machine: HAIMAN_COPPER_DUST_PRODUCER
+recipes:
+- name: '1'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: IRON_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '2'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: GOLD_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '3'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: LEAD_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '4'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: TIN_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '5'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: ZINC_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '6'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: ALUMINUM_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '7'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: MAGNESIUM_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32
+- name: '8'
+  duration: 8
+  energy: 5000
+  input:
+  - type: sf
+    id: SILVER_DUST
+    amount: 64
+  output:
+  - type: sf
+    id: COPPER_DUST
+    amount: 32

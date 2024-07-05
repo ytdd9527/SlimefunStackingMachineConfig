@@ -1,0 +1,9 @@
+machine: KUIJIAJIA_MACHINE
+empty:
+- name: KUIJIAJIA_MACHINE
+  duration: 1
+  energy: 120
+  output:
+  - type: mc
+    id: ARMOR_STAND
+    amount: 1
