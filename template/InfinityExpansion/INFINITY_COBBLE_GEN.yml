@@ -1,5 +1,5 @@
 machine: INFINITY_COBBLE_GEN
-recipes:
+empty:
   - name: 圆石
     duration: 1
     energy: 800
