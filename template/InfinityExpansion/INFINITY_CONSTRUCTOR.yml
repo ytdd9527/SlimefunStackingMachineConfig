@@ -1,0 +1,46 @@
+machine: INFINITY_CONSTRUCTOR
+recipes:
+  - name: COPPER_SINGULARITY
+    duration: 75
+    energy: 1200
+    input:
+      - type: sf
+        id: COPPER_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: COPPER_SINGULARITY
+        amount: 1
+  - name: ZINC_SINGULARITY
+    duration: 75
+    energy: 1200
+    input:
+      - type: sf
+        id: ZINC_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: ZINC_SINGULARITY
+        amount: 1
+  - name: TIN_SINGULARITY
+    duration: 75
+    energy: 1200
+    input: 
+      - type: sf
+        id: TIN_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: TIN_SINGULARITY
+        amount: 1
+  - name: ALUMINUM_SINGULARITY
+    duration: 75
+    energy: 1200
+    input: 
+      - type: sf
+        id: ALUMINUM_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: ALUMINUM_SINGULARITY
+        amount: 1
