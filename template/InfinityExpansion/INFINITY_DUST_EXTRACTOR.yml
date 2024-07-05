@@ -1,50 +1,50 @@
 machine: INFINITY_DUST_EXTRACTOR
 recipes:
   - name: 矿粉
-    duration: 1
+    duration: 10
     energy: 7200
     input:
       - type: mc
         id: COBBLESTONE
-        amount: 64
+        amount: 640
     output:
       - type: weight
         list:
           - type: sf
             id: ZINC_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: MAGNESIUM_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: SILVER_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: ALUMINUM_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: TIN_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: COPPER_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: GOLD_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: IRON_DUST
-            amount: 64
+            amount: 640
             weight: 1
           - type: sf
             id: LEAD_DUST
-            amount: 64
+            amount: 640
             weight: 1
           
       

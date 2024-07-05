@@ -1,9 +1,9 @@
 machine: ADVANCED_COBBLE_GEN
 empty:
   - name: 圆石
-    duration: 1
+    duration: 10
     energy: 120
     output:
       - type: mc
         id: COBBLESTONE
-        amount: 4
+        amount: 40

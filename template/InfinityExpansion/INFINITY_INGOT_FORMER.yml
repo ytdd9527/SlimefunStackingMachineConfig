@@ -1,0 +1,102 @@
+machine: INFINITY_DUST_EXTRACTOR
+recipes:
+  - name: ZINC_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: ZINC_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: ZINC_INGOT
+        amount: 640
+  - name: LEAD_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: LEAD_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: LEAD_INGOT
+        amount: 640
+  - name: MAGNESIUM_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: MAGNESIUM_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: MAGNESIUM_INGOT
+        amount: 640
+  - name: SILVER_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: SILVER_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: SILVER_INGOT
+        amount: 640
+  - name: TIN_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: TIN_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: TIN_INGOT
+        amount: 640
+  - name: ALUMINUM_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: ALUMINUM_INGOT
+        amount: 640
+  - name: COPPER_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: COPPER_INGOT
+        amount: 640
+  - name: GOLD_24K
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 640
+    output:
+      - type: sf
+        id: GOLD_24K
+        amount: 640
+  - name: IRON_INGOT
+    duration: 10
+    energy: 7200
+    input:
+      - type: sf
+        id: IRON_DUST
+        amount: 640
+    output:
+      - type: mc
+        id: IRON_INGOT
+        amount: 640
+
