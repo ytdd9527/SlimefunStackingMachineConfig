@@ -1,0 +1,9 @@
+machine: QUARTZ_BEE_PRODUCTION_2
+empty:
+- name: QUARTZ_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: mc
+    id: QUARTZ
+    amount: 4

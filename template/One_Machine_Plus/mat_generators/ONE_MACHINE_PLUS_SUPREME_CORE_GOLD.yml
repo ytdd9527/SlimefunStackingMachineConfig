@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_SUPREME_CORE_GOLD
+empty:
+- name: ONE_MACHINE_PLUS_SUPREME_CORE_GOLD
+  duration: 3
+  energy: 600
+  output:
+  - type: sf
+    id: SUPREME_CORE_GOLD
+    amount: 1

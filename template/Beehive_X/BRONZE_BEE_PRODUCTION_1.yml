@@ -1,0 +1,9 @@
+machine: BRONZE_BEE_PRODUCTION_1
+empty:
+- name: BRONZE_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: BRONZE_INGOT
+    amount: 1

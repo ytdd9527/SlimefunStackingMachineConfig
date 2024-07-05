@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_FUHEBAN_1
+empty:
+- name: ONE_MACHINE_PLUS_FUHEBAN_1
+  duration: 1
+  energy: 8096
+  output:
+  - type: sf
+    id: FUHEBAN
+    amount: 4

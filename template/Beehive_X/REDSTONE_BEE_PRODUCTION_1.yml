@@ -1,0 +1,9 @@
+machine: REDSTONE_BEE_PRODUCTION_1
+empty:
+- name: REDSTONE_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: mc
+    id: REDSTONE
+    amount: 1

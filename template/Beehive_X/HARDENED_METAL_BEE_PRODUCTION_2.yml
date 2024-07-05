@@ -1,0 +1,9 @@
+machine: HARDENED_METAL_BEE_PRODUCTION_2
+empty:
+- name: HARDENED_METAL_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: sf
+    id: HARDENED_METAL_INGOT
+    amount: 4

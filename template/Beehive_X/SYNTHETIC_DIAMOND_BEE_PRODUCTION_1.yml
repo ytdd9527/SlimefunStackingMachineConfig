@@ -1,0 +1,9 @@
+machine: SYNTHETIC_DIAMOND_BEE_PRODUCTION_1
+empty:
+- name: SYNTHETIC_DIAMOND_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: SYNTHETIC_DIAMOND
+    amount: 1

@@ -1,0 +1,9 @@
+machine: ZINC_BEE_PRODUCTION_1
+empty:
+- name: ZINC_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: ZINC_INGOT
+    amount: 1

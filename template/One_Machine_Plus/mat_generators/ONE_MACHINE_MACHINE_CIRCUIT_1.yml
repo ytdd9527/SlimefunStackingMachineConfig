@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_MACHINE_CIRCUIT_1
+empty:
+- name: ONE_MACHINE_MACHINE_CIRCUIT_1
+  duration: 20
+  energy: 3200
+  output:
+  - type: sf
+    id: MACHINE_CIRCUIT
+    amount: 1

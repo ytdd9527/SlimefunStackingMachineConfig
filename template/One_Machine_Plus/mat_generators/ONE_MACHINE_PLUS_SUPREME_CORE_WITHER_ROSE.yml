@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_SUPREME_CORE_WITHER_ROSE
+empty:
+- name: ONE_MACHINE_PLUS_SUPREME_CORE_WITHER_ROSE
+  duration: 3
+  energy: 600
+  output:
+  - type: sf
+    id: SUPREME_CORE_WITHER_ROSE
+    amount: 1

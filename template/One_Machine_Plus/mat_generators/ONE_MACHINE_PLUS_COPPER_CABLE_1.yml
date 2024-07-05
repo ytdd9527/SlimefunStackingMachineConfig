@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_COPPER_CABLE_1
+empty:
+- name: ONE_MACHINE_PLUS_COPPER_CABLE_1
+  duration: 1
+  energy: 512
+  output:
+  - type: sf
+    id: COPPER_CABLE
+    amount: 4

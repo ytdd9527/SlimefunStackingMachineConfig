@@ -1,0 +1,72 @@
+machine: ONE_MACHINE_PLUS_PARTICLE_AMPLIFICATION
+recipes:
+- name: '1'
+  duration: 3
+  energy: 1024
+  input:
+  - type: sf
+    id: QUIRP_DOWN
+    amount: 1
+  output:
+  - type: sf
+    id: QUIRP_DOWN
+    amount: 2
+  - type: sf
+    id: QUIRP_DOWN
+    amount: 2
+- name: '2'
+  duration: 3
+  energy: 1024
+  input:
+  - type: sf
+    id: QUIRP_UP
+    amount: 1
+  output:
+  - type: sf
+    id: QUIRP_UP
+    amount: 2
+  - type: sf
+    id: QUIRP_UP
+    amount: 2
+- name: '3'
+  duration: 3
+  energy: 1024
+  input:
+  - type: sf
+    id: QUIRP_LEFT
+    amount: 1
+  output:
+  - type: sf
+    id: QUIRP_LEFT
+    amount: 2
+  - type: sf
+    id: QUIRP_LEFT
+    amount: 2
+- name: '4'
+  duration: 3
+  energy: 1024
+  input:
+  - type: sf
+    id: QUIRP_RIGHT
+    amount: 1
+  output:
+  - type: sf
+    id: QUIRP_RIGHT
+    amount: 2
+  - type: sf
+    id: QUIRP_RIGHT
+    amount: 2
+- name: '5'
+  duration: 3
+  energy: 1024
+  input:
+  - type: sf
+    id: RAINBOW_ZOT
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_ZOT
+    amount: 2
+  - type: sf
+    id: RAINBOW_ZOT
+    amount: 2

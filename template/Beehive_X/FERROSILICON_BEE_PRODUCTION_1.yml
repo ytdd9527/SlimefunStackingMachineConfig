@@ -1,0 +1,9 @@
+machine: FERROSILICON_BEE_PRODUCTION_1
+empty:
+- name: FERROSILICON_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: FERROSILICON
+    amount: 1

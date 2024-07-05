@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_YASUO_YASUO_SFBOOK_1
+empty:
+- name: ONE_MACHINE_YASUO_YASUO_SFBOOK_1
+  duration: 8
+  energy: 3200
+  output:
+  - type: sf
+    id: YASUO_YASUO_SFBOOK
+    amount: 1

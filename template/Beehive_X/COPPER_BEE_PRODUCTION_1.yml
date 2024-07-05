@@ -1,0 +1,9 @@
+machine: COPPER_BEE_PRODUCTION_1
+empty:
+- name: COPPER_BEE_PRODUCTION_1
+  duration: 2
+  energy: 4096
+  output:
+  - type: sf
+    id: COPPER_INGOT
+    amount: 1

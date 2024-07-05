@@ -1,0 +1,9 @@
+machine: ONE_MACHINE_PLUS_QUARTZ_1
+empty:
+- name: ONE_MACHINE_PLUS_QUARTZ_1
+  duration: 2
+  energy: 32
+  output:
+  - type: mc
+    id: QUARTZ_BLOCK
+    amount: 1

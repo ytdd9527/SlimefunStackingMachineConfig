@@ -1,0 +1,9 @@
+machine: BRASS_BEE_PRODUCTION_2
+empty:
+- name: BRASS_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: sf
+    id: BRASS_INGOT
+    amount: 4

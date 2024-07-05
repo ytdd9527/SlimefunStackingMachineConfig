@@ -1,0 +1,9 @@
+machine: LAPIS_LAZULI_BEE_PRODUCTION_2
+empty:
+- name: LAPIS_LAZULI_BEE_PRODUCTION_2
+  duration: 1
+  energy: 24576
+  output:
+  - type: mc
+    id: LAPIS_LAZULI
+    amount: 4
