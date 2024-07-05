@@ -44,3 +44,146 @@ recipes:
       - type: sf
         id: ALUMINUM_SINGULARITY
         amount: 1
+  - name: SILVER_SINGULARITY
+    duration: 75
+    energy: 1200
+    input:
+      - type: sf
+        id: SILVER_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: SILVER_SINGULARITY
+        amount: 1
+  - name: MAGNESIUM_SINGULARITY
+    duration: 75
+    energy: 1200
+    input: 
+      - type: sf
+        id: MAGNESIUM_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: MAGNESIUM_SINGULARITY
+        amount: 1
+  - name: LEAD_SINGULARITY
+    duration: 75
+    energy: 1200
+    input:
+      - type: sf
+        id: LEAD_INGOT
+        amount: 4800
+    output:
+      - type: sf
+        id: LEAD_SINGULARITY
+        amount: 1
+  - name: IRON_SINGULARITY
+    duration: 50
+    energy: 1200
+    input:
+      - type: mc
+        id: IRON_INGOT
+        amount: 3200
+    output:
+      - type: sf
+        id: IRON_SINGULARITY
+        amount: 1
+  - name: GOLD_SINGULARITY
+    duration: 50
+    energy: 1200
+    input:
+      - type: mc
+        id: GOLD_INGOT
+        amount: 3200
+    output:
+      - type: sf
+        id: GOLD_SINGULARITY
+        amount: 1
+  - name: DIAMOND_SINGULARITY
+    duration: 13
+    energy: 1200
+    input:
+      - type: mc
+        id: DIAMOND
+        amount: 800
+    output:
+      - type: sf
+        id: DIAMOND_SINGULARITY
+        amount: 1
+  - name: EMERALD_SINGULARITY
+    duration: 13
+    energy: 1200
+    input:
+      - type: mc
+        id: EMERALD
+        amount: 800
+    output:
+      - type: sf
+        id: EMERALD_SINGULARITY
+        amount: 1
+  - name: NETHERITE_SINGULARITY
+    duration: 5
+    energy: 1200
+    input: 
+      - type: mc
+        id: NETHERITE_INGOT
+        amount: 320
+    output:    
+      - type: sf
+        id: NETHERITE_SINGULARITY
+        amount: 1
+  - name: COAL_SINGULARITY
+    duration: 38
+    energy: 1200
+    input:
+      - type: mc
+        id: COAL
+        amount: 2400
+    output: 
+      - type: sf
+        id:
+        amount: 1
+  - name: REDSTONE_SINGULARITY
+    duration: 38
+    energy: 1200
+    input: 
+      - type: mc
+        id: REDSTONE
+        amount: 2400
+    output:
+      - type: sf
+        id: REDSTONE_SINGULARITY
+        amount: 1
+  - name: LAPIS_SINGULARITY
+    duration: 38
+    energy: 1200
+    input:
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 2400
+    output:
+      - type: sf
+        id: LAPIS_SINGULARITY
+        amount: 1
+  - name: QUARTZ_SINGULARITY
+    duration: 38
+    energy: 1200
+    input:
+      - type: mc
+        id: QUARTZ
+        amount: 2400
+    output:
+      - type: sf
+        id: QUARTZ_SINGULARITY
+        amount: 1
+  - name: INFINITY_SINGULARITY
+    duration: 3
+    energy: 1200
+    input: 
+      - type: sf
+        id: INFINITY_INGOT
+        amount: 160
+    output:
+      - type: sf
+        id: INFINITY_SINGULARITY
+        amount: 1
