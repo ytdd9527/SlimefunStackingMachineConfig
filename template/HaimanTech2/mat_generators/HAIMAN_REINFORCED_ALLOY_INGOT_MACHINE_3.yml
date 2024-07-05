@@ -1,0 +1,9 @@
+machine: HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3
+empty:
+- name: HAIMAN_REINFORCED_ALLOY_INGOT_MACHINE_3
+  duration: 1
+  energy: 4800
+  output:
+  - type: sf
+    id: REINFORCED_ALLOY_INGOT
+    amount: 8

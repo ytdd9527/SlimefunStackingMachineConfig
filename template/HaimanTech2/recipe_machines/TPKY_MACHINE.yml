@@ -1,0 +1,222 @@
+machine: TPKY_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: FISHING_ROD
+    amount: 1
+  output:
+  - type: mc
+    id: ANGLER_POTTERY_SHERD
+    amount: 1
+- name: '2'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: BOW
+    amount: 1
+  output:
+  - type: mc
+    id: ARCHER_POTTERY_SHERD
+    amount: 1
+- name: '3'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 2
+  output:
+  - type: mc
+    id: ARMS_UP_POTTERY_SHERD
+    amount: 1
+- name: '4'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: STONE_SWORD
+    amount: 1
+  output:
+  - type: mc
+    id: BLADE_POTTERY_SHERD
+    amount: 1
+- name: '5'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: WATER_BUCKET
+    amount: 1
+  output:
+  - type: mc
+    id: BREWER_POTTERY_SHERD
+    amount: 1
+- name: '6'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: FLINT_AND_STEEL
+    amount: 1
+  output:
+  - type: mc
+    id: BURN_POTTERY_SHERD
+    amount: 1
+- name: '7'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: ZOMBIE_HEAD
+    amount: 2
+  output:
+  - type: mc
+    id: DANGER_POTTERY_SHERD
+    amount: 1
+- name: '8'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: SPYGLASS
+    amount: 1
+  output:
+  - type: mc
+    id: EXPLORER_POTTERY_SHERD
+    amount: 1
+- name: '9'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: AMETHYST_SHARD
+    amount: 2
+  output:
+  - type: mc
+    id: FRIEND_POTTERY_SHERD
+    amount: 1
+- name: '10'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: WHEAT
+    amount: 8
+  output:
+  - type: mc
+    id: HEART_POTTERY_SHERD
+    amount: 1
+- name: '11'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: COOKIE
+    amount: 8
+  output:
+  - type: mc
+    id: HEARTBREAK_POTTERY_SHERD
+    amount: 1
+- name: '12'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: BONE
+    amount: 16
+  output:
+  - type: mc
+    id: HOWL_POTTERY_SHERD
+    amount: 1
+- name: '13'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: IRON_ORE
+    amount: 16
+  output:
+  - type: mc
+    id: MINER_POTTERY_SHERD
+    amount: 1
+- name: '14'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: DIRT
+    amount: 16
+  output:
+  - type: mc
+    id: MOURNER_POTTERY_SHERD
+    amount: 1
+- name: '15'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 8
+  output:
+  - type: mc
+    id: PLENTY_POTTERY_SHERD
+    amount: 1
+- name: '16'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: EMERALD
+    amount: 8
+  output:
+  - type: mc
+    id: PRIZE_POTTERY_SHERD
+    amount: 1
+- name: '17'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: HAY_BLOCK
+    amount: 2
+  output:
+  - type: mc
+    id: SHEAF_POTTERY_SHERD
+    amount: 1
+- name: '18'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: OAK_SAPLING
+    amount: 8
+  output:
+  - type: mc
+    id: SHELTER_POTTERY_SHERD
+    amount: 1
+- name: '19'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: PLAYER_HEAD
+    amount: 2
+  output:
+  - type: mc
+    id: SKULL_POTTERY_SHERD
+    amount: 1
+- name: '20'
+  duration: 3
+  energy: 860
+  input:
+  - type: mc
+    id: TORCHFLOWER_SEEDS
+    amount: 4
+  output:
+  - type: mc
+    id: SNORT_POTTERY_SHERD
+    amount: 1

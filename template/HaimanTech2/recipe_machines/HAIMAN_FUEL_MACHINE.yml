@@ -1,0 +1,46 @@
+machine: HAIMAN_FUEL_MACHINE
+recipes:
+- name: '1'
+  duration: 10000
+  energy: 45000
+  input:
+  - type: sf
+    id: PLUTONIUM
+    amount: 16
+  output:
+  - type: sf
+    id: H_FUEL
+    amount: 1
+- name: '2'
+  duration: 12000
+  energy: 45000
+  input:
+  - type: sf
+    id: ZOT_INGOT
+    amount: 16
+  output:
+  - type: sf
+    id: HD_FUEL
+    amount: 1
+- name: '3'
+  duration: 18000
+  energy: 45000
+  input:
+  - type: sf
+    id: MINECRAFT_DEAD_BUSH_GHOST
+    amount: 2
+  output:
+  - type: sf
+    id: HDB_FUEL
+    amount: 1
+- name: '4'
+  duration: 20000
+  energy: 45000
+  input:
+  - type: sf
+    id: MINECRAFT_SOURCE_STONE
+    amount: 1
+  output:
+  - type: sf
+    id: HDBU_FUEL
+    amount: 1

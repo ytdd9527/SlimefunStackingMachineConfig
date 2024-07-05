@@ -1,0 +1,9 @@
+machine: LAVA_BUCKET_MACHINE
+empty:
+- name: LAVA_BUCKET_MACHINE
+  duration: 1
+  energy: 4500
+  output:
+  - type: mc
+    id: LAVA_BUCKET
+    amount: 64

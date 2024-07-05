@@ -1,0 +1,9 @@
+machine: TIZI_MACHINE
+empty:
+- name: TIZI_MACHINE
+  duration: 1
+  energy: 20
+  output:
+  - type: mc
+    id: LADDER
+    amount: 6

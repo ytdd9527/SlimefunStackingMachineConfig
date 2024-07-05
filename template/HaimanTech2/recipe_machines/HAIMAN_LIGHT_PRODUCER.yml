@@ -1,0 +1,13 @@
+machine: HAIMAN_LIGHT_PRODUCER
+recipes:
+- name: '1'
+  duration: 120
+  energy: 5000
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 8
+  output:
+  - type: sf
+    id: LIGHT_0
+    amount: 1

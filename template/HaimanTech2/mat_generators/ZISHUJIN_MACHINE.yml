@@ -1,0 +1,9 @@
+machine: ZISHUJIN_MACHINE
+empty:
+- name: ZISHUJIN_MACHINE
+  duration: 1
+  energy: 80
+  output:
+  - type: mc
+    id: AMETHYST_SHARD
+    amount: 16

@@ -1,0 +1,24 @@
+machine: MILK_HONEY_MACHINE
+recipes:
+- name: '1'
+  duration: 1
+  energy: 50
+  input:
+  - type: mc
+    id: BUCKET
+    amount: 1
+  output:
+  - type: mc
+    id: MILK_BUCKET
+    amount: 1
+- name: '2'
+  duration: 3
+  energy: 50
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 8
+  output:
+  - type: mc
+    id: HONEY_BOTTLE
+    amount: 8

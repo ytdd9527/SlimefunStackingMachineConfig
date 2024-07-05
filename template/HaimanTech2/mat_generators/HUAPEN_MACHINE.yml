@@ -1,0 +1,9 @@
+machine: HUAPEN_MACHINE
+empty:
+- name: HUAPEN_MACHINE
+  duration: 1
+  energy: 15
+  output:
+  - type: mc
+    id: FLOWER_POT
+    amount: 2

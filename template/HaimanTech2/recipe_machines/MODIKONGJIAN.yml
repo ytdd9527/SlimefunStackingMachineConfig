@@ -1,0 +1,60 @@
+machine: MODIKONGJIAN
+recipes:
+- name: '1'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 1
+  output:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 64
+- name: '2'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 16
+  output:
+  - type: mc
+    id: DRAGON_BREATH
+    amount: 64
+- name: '3'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 64
+  output:
+  - type: mc
+    id: DRAGON_HEAD
+    amount: 64
+- name: '4'
+  duration: 10
+  energy: 200000
+  input:
+  - type: mc
+    id: EGG
+    amount: 16
+  output:
+  - type: mc
+    id: DRAGON_EGG
+    amount: 20
+- name: '5'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: END_STONE
+    amount: 1
+  output:
+  - type: mc
+    id: END_STONE
+    amount: 64
+  - type: mc
+    id: END_STONE
+    amount: 64

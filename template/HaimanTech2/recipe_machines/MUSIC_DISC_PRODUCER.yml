@@ -1,0 +1,178 @@
+machine: MUSIC_DISC_PRODUCER
+recipes:
+- name: '1'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: YELLOW_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_13
+    amount: 1
+- name: '2'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: LIME_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_CAT
+    amount: 1
+- name: '3'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: ORANGE_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_BLOCKS
+    amount: 1
+- name: '4'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: RED_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_CHIRP
+    amount: 1
+- name: '5'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: SLIME_BALL
+    amount: 3
+  output:
+  - type: mc
+    id: MUSIC_DISC_FAR
+    amount: 1
+- name: '6'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: PURPLE_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_MALL
+    amount: 1
+- name: '7'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: MAGENTA_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_MELLOHI
+    amount: 1
+- name: '8'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: BLACK_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_STAL
+    amount: 1
+- name: '9'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: WHITE_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_STRAD
+    amount: 1
+- name: '10'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: GREEN_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_WARD
+    amount: 1
+- name: '11'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: BLUE_DYE
+    amount: 6
+  output:
+  - type: mc
+    id: MUSIC_DISC_WAIT
+    amount: 1
+- name: '12'
+  duration: 6
+  energy: 64
+  input:
+  - type: mc
+    id: CRACKED_STONE_BRICKS
+    amount: 32
+  output:
+  - type: mc
+    id: MUSIC_DISC_11
+    amount: 1
+- name: '13'
+  duration: 100
+  energy: 64
+  input:
+  - type: mc
+    id: BLAZE_ROD
+    amount: 64
+  output:
+  - type: mc
+    id: MUSIC_DISC_PIGSTEP
+    amount: 1
+- name: '14'
+  duration: 250
+  energy: 64
+  input:
+  - type: sf
+    id: FUHEBAN
+    amount: 1
+  output:
+  - type: mc
+    id: MUSIC_DISC_OTHERSIDE
+    amount: 1
+- name: '15'
+  duration: 1
+  energy: 64
+  input:
+  - type: mc
+    id: DISC_FRAGMENT_5
+    amount: 4
+  output:
+  - type: mc
+    id: MUSIC_DISC_5
+    amount: 1
+- name: '16'
+  duration: 1
+  energy: 64
+  input:
+  - type: mc
+    id: CHERRY_SAPLING
+    amount: 4
+  output:
+  - type: mc
+    id: MUSIC_DISC_RELIC
+    amount: 1

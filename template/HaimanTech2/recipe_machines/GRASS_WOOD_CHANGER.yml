@@ -1,0 +1,46 @@
+machine: GRASS_WOOD_CHANGER
+recipes:
+- name: '1'
+  duration: 2
+  energy: 6
+  input:
+  - type: mc
+    id: STICK
+    amount: 1
+  output:
+  - type: mc
+    id: DEAD_BUSH
+    amount: 1
+- name: '2'
+  duration: 2
+  energy: 6
+  input:
+  - type: mc
+    id: GRASS
+    amount: 1
+  output:
+  - type: mc
+    id: TALL_GRASS
+    amount: 1
+- name: '3'
+  duration: 2
+  energy: 6
+  input:
+  - type: mc
+    id: FERN
+    amount: 1
+  output:
+  - type: mc
+    id: LARGE_FERN
+    amount: 1
+- name: '4'
+  duration: 2
+  energy: 6
+  input:
+  - type: mc
+    id: MANGROVE_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: MANGROVE_ROOTS
+    amount: 1

@@ -1,0 +1,189 @@
+machine: HAIMAN_CARPET_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: white_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: white_carpet
+    amount: 8
+- name: '2'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: orange_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: orange_carpet
+    amount: 8
+- name: '3'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: magenta_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: magenta_carpet
+    amount: 8
+- name: '4'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: light_blue_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: light_blue_carpet
+    amount: 8
+- name: '5'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: yellow_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: yellow_carpet
+    amount: 8
+- name: '6'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: lime_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: lime_carpet
+    amount: 8
+- name: '7'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: pink_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: pink_carpet
+    amount: 8
+- name: '8'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: gray_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: gray_carpet
+    amount: 8
+- name: '9'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: light_gray_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: light_gray_carpet
+    amount: 8
+- name: '10'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: cyan_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: cyan_carpet
+    amount: 8
+- name: '11'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: purple_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: purple_carpet
+    amount: 8
+- name: '12'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: blue_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: blue_carpet
+    amount: 8
+- name: '13'
+  duration: 100
+  energy: 15
+  input:
+  - type: mc
+    id: brown_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: brown_carpet
+    amount: 8
+- name: '14'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: green_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: green_carpet
+    amount: 8
+- name: '15'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: red_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: red_carpet
+    amount: 8
+- name: '16'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: black_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: black_carpet
+    amount: 8
+- name: '17'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: moss_carpet
+    amount: 1
+  output:
+  - type: mc
+    id: moss_carpet
+    amount: 8

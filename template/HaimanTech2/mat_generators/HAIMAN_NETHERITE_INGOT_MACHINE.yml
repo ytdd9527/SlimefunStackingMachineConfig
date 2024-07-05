@@ -1,0 +1,9 @@
+machine: HAIMAN_NETHERITE_INGOT_MACHINE
+empty:
+- name: HAIMAN_NETHERITE_INGOT_MACHINE
+  duration: 3
+  energy: 60
+  output:
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1

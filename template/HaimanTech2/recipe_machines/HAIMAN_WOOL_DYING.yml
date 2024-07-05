@@ -1,0 +1,530 @@
+machine: HAIMAN_WOOL_DYING
+recipes:
+- name: '1'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLACK_BED
+    amount: 1
+  output:
+  - type: mc
+    id: WHITE_BED
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_BED
+    amount: 1
+  output:
+  - type: mc
+    id: ORANGE_BED
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: ORANGE_BED
+    amount: 1
+  output:
+  - type: mc
+    id: MAGENTA_BED
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: MAGENTA_BED
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_BLUE_BED
+    amount: 1
+- name: '5'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_BLUE_BED
+    amount: 1
+  output:
+  - type: mc
+    id: YELLOW_BED
+    amount: 1
+- name: '6'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: YELLOW_BED
+    amount: 1
+  output:
+  - type: mc
+    id: LIME_BED
+    amount: 1
+- name: '7'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIME_BED
+    amount: 1
+  output:
+  - type: mc
+    id: PINK_BED
+    amount: 1
+- name: '8'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PINK_BED
+    amount: 1
+  output:
+  - type: mc
+    id: GRAY_BED
+    amount: 1
+- name: '9'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GRAY_BED
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_GRAY_BED
+    amount: 1
+- name: '10'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_GRAY_BED
+    amount: 1
+  output:
+  - type: mc
+    id: CYAN_BED
+    amount: 1
+- name: '11'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: CYAN_BED
+    amount: 1
+  output:
+  - type: mc
+    id: PURPLE_BED
+    amount: 1
+- name: '12'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PURPLE_BED
+    amount: 1
+  output:
+  - type: mc
+    id: BLUE_BED
+    amount: 1
+- name: '13'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLUE_BED
+    amount: 1
+  output:
+  - type: mc
+    id: BROWN_BED
+    amount: 1
+- name: '14'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BROWN_BED
+    amount: 1
+  output:
+  - type: mc
+    id: GREEN_BED
+    amount: 1
+- name: '15'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GREEN_BED
+    amount: 1
+  output:
+  - type: mc
+    id: RED_BED
+    amount: 1
+- name: '16'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: RED_BED
+    amount: 1
+  output:
+  - type: mc
+    id: BLACK_BED
+    amount: 1
+- name: '17'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLACK_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: WHITE_WOOL
+    amount: 1
+- name: '18'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: ORANGE_WOOL
+    amount: 1
+- name: '19'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: ORANGE_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: MAGENTA_WOOL
+    amount: 1
+- name: '20'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: MAGENTA_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_BLUE_WOOL
+    amount: 1
+- name: '21'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_BLUE_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: YELLOW_WOOL
+    amount: 1
+- name: '22'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: YELLOW_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: LIME_WOOL
+    amount: 1
+- name: '23'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIME_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: PINK_WOOL
+    amount: 1
+- name: '24'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PINK_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: GRAY_WOOL
+    amount: 1
+- name: '25'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GRAY_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_GRAY_WOOL
+    amount: 1
+- name: '26'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_GRAY_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: CYAN_WOOL
+    amount: 1
+- name: '27'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: CYAN_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: PURPLE_WOOL
+    amount: 1
+- name: '28'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PURPLE_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: BLUE_WOOL
+    amount: 1
+- name: '29'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLUE_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: BROWN_WOOL
+    amount: 1
+- name: '30'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BROWN_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: GREEN_WOOL
+    amount: 1
+- name: '31'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GREEN_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: RED_WOOL
+    amount: 1
+- name: '32'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: RED_WOOL
+    amount: 1
+  output:
+  - type: mc
+    id: BLACK_WOOL
+    amount: 1
+- name: '33'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLACK_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: WHITE_CARPET
+    amount: 1
+- name: '34'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: ORANGE_CARPET
+    amount: 1
+- name: '35'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: ORANGE_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: MAGENTA_CARPET
+    amount: 1
+- name: '36'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: MAGENTA_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_BLUE_CARPET
+    amount: 1
+- name: '37'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_BLUE_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: YELLOW_CARPET
+    amount: 1
+- name: '38'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: YELLOW_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: LIME_CARPET
+    amount: 1
+- name: '39'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIME_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: PINK_CARPET
+    amount: 1
+- name: '40'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PINK_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: GRAY_CARPET
+    amount: 1
+- name: '41'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GRAY_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_GRAY_CARPET
+    amount: 1
+- name: '42'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_GRAY_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: CYAN_CARPET
+    amount: 1
+- name: '43'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: CYAN_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: PURPLE_CARPET
+    amount: 1
+- name: '44'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PURPLE_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: BLUE_CARPET
+    amount: 1
+- name: '45'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLUE_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: BROWN_CARPET
+    amount: 1
+- name: '46'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BROWN_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: GREEN_CARPET
+    amount: 1
+- name: '47'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GREEN_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: RED_CARPET
+    amount: 1
+- name: '48'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: RED_CARPET
+    amount: 1
+  output:
+  - type: mc
+    id: BLACK_CARPET
+    amount: 1

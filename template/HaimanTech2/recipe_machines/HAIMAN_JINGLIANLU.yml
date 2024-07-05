@@ -1,0 +1,13 @@
+machine: HAIMAN_JINGLIANLU
+recipes:
+- name: '1'
+  duration: 3
+  energy: 60
+  input:
+  - type: mc
+    id: IRON_INGOT
+    amount: 1
+  output:
+  - type: sf
+    id: REFINED_IRON
+    amount: 1

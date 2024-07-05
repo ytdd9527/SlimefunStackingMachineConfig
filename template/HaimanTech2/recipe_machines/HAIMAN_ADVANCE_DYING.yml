@@ -1,0 +1,101 @@
+machine: HAIMAN_ADVANCE_DYING
+recipes:
+- name: '1'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_WOOL
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_WOOL
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_STAINED_GLASS
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_GLASS
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_STAINED_GLASS_PANE
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_GLASS_PANE
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_TERRACOTTA
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_CLAY
+    amount: 1
+- name: '5'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_CONCRETE
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_CONCRETE
+    amount: 1
+- name: '6'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_GLAZED_TERRACOTTA
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_GLAZED_TERRACOTTA
+    amount: 1
+- name: '7'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: CREEPER_HEAD
+    amount: 4
+  output:
+  - type: sf
+    id: HAIMAN
+    amount: 1
+- name: '8'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 8
+  output:
+  - type: sf
+    id: YITOUDAIDAI
+    amount: 1
+- name: '9'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: DIAMOND
+    amount: 64
+  output:
+  - type: sf
+    id: YH_MC
+    amount: 1

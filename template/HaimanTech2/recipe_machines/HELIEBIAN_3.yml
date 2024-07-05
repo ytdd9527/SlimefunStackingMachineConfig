@@ -1,0 +1,115 @@
+machine: HELIEBIAN_3
+recipes:
+- name: '1'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: URANIUM
+    amount: 1
+  output:
+  - type: sf
+    id: NEPTUNIUM
+    amount: 2
+- name: '2'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: NEPTUNIUM
+    amount: 1
+  output:
+  - type: sf
+    id: PLUTONIUM
+    amount: 2
+- name: '3'
+  duration: 0
+  energy: 2048
+  input:
+  - type: mc
+    id: GRASS_BLOCK
+    amount: 48
+  output:
+  - type: sf
+    id: THORIUM
+    amount: 8
+- name: '4'
+  duration: 0
+  energy: 2048
+  input:
+  - type: mc
+    id: NETHERRACK
+    amount: 28
+  output:
+  - type: sf
+    id: NETHER_ICE
+    amount: 3
+- name: '5'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: NETHER_ICE
+    amount: 12
+  output:
+  - type: sf
+    id: ENRICHED_NETHER_ICE
+    amount: 16
+- name: '6'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: GOLD_24K
+    amount: 48
+  output:
+  - type: sf
+    id: BLISTERING_INGOT
+    amount: 2
+- name: '7'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: CARBONADO
+    amount: 48
+  output:
+  - type: sf
+    id: BLISTERING_INGOT_2
+    amount: 2
+- name: '8'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: BLISTERING_INGOT_2
+    amount: 2
+  output:
+  - type: sf
+    id: BLISTERING_INGOT_3
+    amount: 3
+- name: '9'
+  duration: 0
+  energy: 2048
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 64
+  output:
+  - type: sf
+    id: URANIUM
+    amount: 64
+  - type: sf
+    id: URANIUM
+    amount: 16
+- name: '10'
+  duration: 0
+  energy: 2048
+  input:
+  - type: sf
+    id: HERANLIAOYJ
+    amount: 16
+  output:
+  - type: sf
+    id: BOOSTED_URANIUM
+    amount: 32

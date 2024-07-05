@@ -1,0 +1,233 @@
+machine: HAIMAN_FLOWER_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: DANDELION
+    amount: 1
+  output:
+  - type: mc
+    id: DANDELION
+    amount: 2
+- name: '2'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: POPPY
+    amount: 1
+  output:
+  - type: mc
+    id: POPPY
+    amount: 2
+- name: '3'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: BLUE_ORCHID
+    amount: 1
+  output:
+  - type: mc
+    id: BLUE_ORCHID
+    amount: 2
+- name: '4'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: ALLIUM
+    amount: 1
+  output:
+  - type: mc
+    id: ALLIUM
+    amount: 2
+- name: '5'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: AZURE_BLUET
+    amount: 1
+  output:
+  - type: mc
+    id: AZURE_BLUET
+    amount: 2
+- name: '6'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: RED_TULIP
+    amount: 1
+  output:
+  - type: mc
+    id: RED_TULIP
+    amount: 2
+- name: '7'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: ORANGE_TULIP
+    amount: 1
+  output:
+  - type: mc
+    id: ORANGE_TULIP
+    amount: 2
+- name: '8'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: WHITE_TULIP
+    amount: 1
+  output:
+  - type: mc
+    id: WHITE_TULIP
+    amount: 2
+- name: '9'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: PINK_TULIP
+    amount: 1
+  output:
+  - type: mc
+    id: PINK_TULIP
+    amount: 2
+- name: '10'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: OXEYE_DAISY
+    amount: 1
+  output:
+  - type: mc
+    id: OXEYE_DAISY
+    amount: 2
+- name: '11'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: CORNFLOWER
+    amount: 1
+  output:
+  - type: mc
+    id: CORNFLOWER
+    amount: 2
+- name: '12'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: LILY_OF_THE_VALLEY
+    amount: 1
+  output:
+  - type: mc
+    id: LILY_OF_THE_VALLEY
+    amount: 2
+- name: '13'
+  duration: 100
+  energy: 15
+  input:
+  - type: mc
+    id: WITHER_ROSE
+    amount: 1
+  output:
+  - type: mc
+    id: WITHER_ROSE
+    amount: 2
+- name: '14'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: SUNFLOWER
+    amount: 1
+  output:
+  - type: mc
+    id: SUNFLOWER
+    amount: 2
+- name: '15'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: LILAC
+    amount: 1
+  output:
+  - type: mc
+    id: LILAC
+    amount: 2
+- name: '16'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: PEONY
+    amount: 1
+  output:
+  - type: mc
+    id: PEONY
+    amount: 2
+- name: '17'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: ROSE_BUSH
+    amount: 1
+  output:
+  - type: mc
+    id: ROSE_BUSH
+    amount: 2
+- name: '18'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: SPORE_BLOSSOM
+    amount: 1
+  output:
+  - type: mc
+    id: SPORE_BLOSSOM
+    amount: 2
+- name: '19'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: AZALEA
+    amount: 1
+  output:
+  - type: mc
+    id: AZALEA
+    amount: 2
+- name: '20'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: FLOWERING_AZALEA
+    amount: 1
+  output:
+  - type: mc
+    id: FLOWERING_AZALEA
+    amount: 2
+- name: '21'
+  duration: 6
+  energy: 15
+  input:
+  - type: mc
+    id: FLOWERING_AZALEA_LEAVES
+    amount: 1
+  output:
+  - type: mc
+    id: FLOWERING_AZALEA_LEAVES
+    amount: 2

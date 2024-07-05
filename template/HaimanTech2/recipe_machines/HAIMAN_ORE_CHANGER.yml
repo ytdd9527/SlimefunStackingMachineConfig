@@ -1,0 +1,200 @@
+machine: HAIMAN_ORE_CHANGER
+recipes:
+- name: '1'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: COAL_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_COAL_ORE
+    amount: 1
+- name: '2'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_COAL_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: COAL_ORE
+    amount: 1
+- name: '3'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: IRON_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_IRON_ORE
+    amount: 1
+- name: '4'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_IRON_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: IRON_ORE
+    amount: 1
+- name: '5'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: COPPER_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_COPPER_ORE
+    amount: 1
+- name: '6'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_COPPER_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: COPPER_ORE
+    amount: 1
+- name: '7'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: LAPIS_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_LAPIS_ORE
+    amount: 1
+- name: '8'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_LAPIS_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: LAPIS_ORE
+    amount: 1
+- name: '9'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: GOLD_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_GOLD_ORE
+    amount: 1
+- name: '10'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_GOLD_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: GOLD_ORE
+    amount: 1
+- name: '11'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: REDSTONE_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_REDSTONE_ORE
+    amount: 1
+- name: '12'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_REDSTONE_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: REDSTONE_ORE
+    amount: 1
+- name: '13'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DIAMOND_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_DIAMOND_ORE
+    amount: 1
+- name: '14'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_DIAMOND_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DIAMOND_ORE
+    amount: 1
+- name: '15'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: EMERALD_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: DEEPSLATE_EMERALD_ORE
+    amount: 1
+- name: '16'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: DEEPSLATE_EMERALD_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: EMERALD_ORE
+    amount: 1
+- name: '17'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: NETHER_GOLD_ORE
+    amount: 1
+  output:
+  - type: mc
+    id: GILDED_BLACKSTONE
+    amount: 1
+- name: '18'
+  duration: 3
+  energy: 20
+  input:
+  - type: mc
+    id: GILDED_BLACKSTONE
+    amount: 1
+  output:
+  - type: mc
+    id: NETHER_GOLD_ORE
+    amount: 1

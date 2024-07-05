@@ -1,0 +1,9 @@
+machine: INFINITY_ALL_IN_ONE_MACHINE_1
+empty:
+- name: INFINITY_ALL_IN_ONE_MACHINE_1
+  duration: 20
+  energy: 4000
+  output:
+  - type: sf
+    id: INFINITE_INGOT
+    amount: 1

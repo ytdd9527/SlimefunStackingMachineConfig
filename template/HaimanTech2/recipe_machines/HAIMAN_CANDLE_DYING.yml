@@ -1,0 +1,189 @@
+machine: HAIMAN_CANDLE_DYING
+recipes:
+- name: '1'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: WHITE_CANDLE
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: WHITE_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: ORANGE_CANDLE
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: ORANGE_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: MAGENTA_CANDLE
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: MAGENTA_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_BLUE_CANDLE
+    amount: 1
+- name: '5'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_BLUE_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: YELLOW_CANDLE
+    amount: 1
+- name: '6'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: YELLOW_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: LIME_CANDLE
+    amount: 1
+- name: '7'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIME_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: PINK_CANDLE
+    amount: 1
+- name: '8'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PINK_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: GRAY_CANDLE
+    amount: 1
+- name: '9'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GRAY_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT_GRAY_CANDLE
+    amount: 1
+- name: '10'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: LIGHT_GRAY_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: CYAN_CANDLE
+    amount: 1
+- name: '11'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: CYAN_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: PURPLE_CANDLE
+    amount: 1
+- name: '12'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: PURPLE_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: BLUE_CANDLE
+    amount: 1
+- name: '13'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLUE_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: BROWN_CANDLE
+    amount: 1
+- name: '14'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BROWN_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: GREEN_CANDLE
+    amount: 1
+- name: '15'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: GREEN_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: RED_CANDLE
+    amount: 1
+- name: '16'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: RED_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: BLACK_CANDLE
+    amount: 1
+- name: '17'
+  duration: 1
+  energy: 10
+  input:
+  - type: mc
+    id: BLACK_CANDLE
+    amount: 1
+  output:
+  - type: mc
+    id: CANDLE
+    amount: 1

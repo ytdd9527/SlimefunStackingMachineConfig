@@ -1,0 +1,343 @@
+machine: HAIMAN_WOOD_PEELER
+recipes:
+- name: '1'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: OAK_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_OAK_LOG
+    amount: 1
+- name: '2'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: SPRUCE_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_SPRUCE_LOG
+    amount: 1
+- name: '3'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: BIRCH_lOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_BIRCH_LOG
+    amount: 1
+- name: '4'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: JUNGLE_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_JUNGLE_LOG
+    amount: 1
+- name: '5'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: ACACIA_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_ACACIA_LOG
+    amount: 1
+- name: '6'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: DARK_OAK_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_DARK_OAK_LOG
+    amount: 1
+- name: '7'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: CRIMSON_STEM
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_CRIMSON_STEM
+    amount: 1
+- name: '8'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: WARPED_STEM
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_WARPED_STEM
+    amount: 1
+- name: '9'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: OAK_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_OAK_WOOD
+    amount: 1
+- name: '10'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: SPRUCE_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_SPRUCE_WOOD
+    amount: 1
+- name: '11'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: BIRCH_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_BIRCH_WOOD
+    amount: 1
+- name: '12'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: JUNGLE_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_JUNGLE_WOOD
+    amount: 1
+- name: '13'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: ACACIA_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_ACACIA_WOOD
+    amount: 1
+- name: '14'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: DARK_OAK_WOOD
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_DARK_OAK_WOOD
+    amount: 1
+- name: '15'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: CRIMSON_HYPHAE
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_CRIMSON_HYPHAE
+    amount: 1
+- name: '16'
+  duration: 2
+  energy: 16
+  input:
+  - type: mc
+    id: WARPED_HYPHAE
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_WARPED_HYPHAE
+    amount: 1
+- name: '17'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: STRIPPED_OAK_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: OAK_PLANKS
+    amount: 6
+- name: '18'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: STRIPPED_SPRUCE_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: SPRUCE_PLANKS
+    amount: 6
+- name: '19'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: STRIPPED_BIRCH_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: BIRCH_PLANKS
+    amount: 6
+- name: '20'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: STRIPPED_JUNGLE_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: JUNGLE_PLANKS
+    amount: 6
+- name: '21'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: STRIPPED_ACACIA_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: ACACIA_PLANKS
+    amount: 6
+- name: '22'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: STRIPPED_DARK_OAK_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: DARK_OAK_PLANKS
+    amount: 6
+- name: '23'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: OAK_PLANKS
+    amount: 1
+  output:
+  - type: mc
+    id: STICK
+    amount: 4
+- name: '24'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: SPRUCE_PLANKS
+    amount: 1
+  output:
+  - type: mc
+    id: STICK
+    amount: 4
+- name: '25'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: BIRCH_PLANKS
+    amount: 1
+  output:
+  - type: mc
+    id: STICK
+    amount: 4
+- name: '26'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: JUNGLE_PLANKS
+    amount: 1
+  output:
+  - type: mc
+    id: STICK
+    amount: 4
+- name: '27'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: ACACIA_PLANKS
+    amount: 1
+  output:
+  - type: mc
+    id: STICK
+    amount: 4
+- name: '28'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: DARK_OAK_PLANKS
+    amount: 1
+  output:
+  - type: mc
+    id: STICK
+    amount: 4
+- name: '29'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: MANGROVE_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_MANGROVE_LOG
+    amount: 1
+- name: '30'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: CHERRY_LOG
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_CHERRY_LOG
+    amount: 1
+- name: '31'
+  duration: 1
+  energy: 16
+  input:
+  - type: mc
+    id: BAMBOO_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: STRIPPED_BAMBOO_BLOCK
+    amount: 1

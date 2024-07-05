@@ -1,0 +1,9 @@
+machine: YANGMAO_MACHINE
+empty:
+- name: YANGMAO_MACHINE
+  duration: 1
+  energy: 65
+  output:
+  - type: mc
+    id: WHITE_WOOL
+    amount: 6

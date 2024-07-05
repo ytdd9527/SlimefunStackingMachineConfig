@@ -1,0 +1,9 @@
+machine: HEIYAOSHI_MACHINE
+empty:
+- name: HEIYAOSHI_MACHINE
+  duration: 1
+  energy: 620
+  output:
+  - type: mc
+    id: OBSIDIAN
+    amount: 2

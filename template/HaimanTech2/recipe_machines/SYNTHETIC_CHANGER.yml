@@ -1,0 +1,35 @@
+machine: SYNTHETIC_CHANGER
+recipes:
+- name: '1'
+  duration: 6
+  energy: 8000
+  input:
+  - type: mc
+    id: DIAMOND
+    amount: 24
+  output:
+  - type: sf
+    id: SYNTHETIC_DIAMOND
+    amount: 2
+- name: '2'
+  duration: 6
+  energy: 8000
+  input:
+  - type: mc
+    id: LAPIS_LAZULI
+    amount: 48
+  output:
+  - type: sf
+    id: SYNTHETIC_SAPPHIRE
+    amount: 2
+- name: '3'
+  duration: 6
+  energy: 8000
+  input:
+  - type: mc
+    id: EMERALD
+    amount: 24
+  output:
+  - type: sf
+    id: SYNTHETIC_EMERALD
+    amount: 2

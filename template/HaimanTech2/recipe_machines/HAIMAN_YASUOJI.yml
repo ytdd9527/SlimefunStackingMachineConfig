@@ -1,0 +1,46 @@
+machine: HAIMAN_YASUOJI
+recipes:
+- name: '1'
+  duration: 1
+  energy: 2000
+  input:
+  - type: sf
+    id: YASUO_SFBOOK
+    amount: 64
+  output:
+  - type: sf
+    id: YASUO_YASUO_SFBOOK
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 2000
+  input:
+  - type: sf
+    id: DEMONIC_INGOT
+    amount: 8
+  output:
+  - type: sf
+    id: DEMONIC_PLATE
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 2000
+  input:
+  - type: mc
+    id: SPONGE
+    amount: 24
+  output:
+  - type: sf
+    id: COMPRESSED_SPONGE
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 2000
+  input:
+  - type: sf
+    id: PURIFIED_BONE
+    amount: 6
+  output:
+  - type: sf
+    id: PURE_BONE_DUST
+    amount: 1

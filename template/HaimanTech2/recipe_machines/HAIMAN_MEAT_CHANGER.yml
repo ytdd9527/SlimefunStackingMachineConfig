@@ -1,0 +1,178 @@
+machine: HAIMAN_MEAT_CHANGER
+recipes:
+- name: '1'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: beef
+    amount: 1
+  output:
+  - type: mc
+    id: chicken
+    amount: 5
+- name: '2'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: chicken
+    amount: 1
+  output:
+  - type: mc
+    id: mutton
+    amount: 5
+- name: '3'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: mutton
+    amount: 1
+  output:
+  - type: mc
+    id: porkchop
+    amount: 5
+- name: '4'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: porkchop
+    amount: 1
+  output:
+  - type: mc
+    id: rabbit
+    amount: 5
+- name: '5'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: rabbit
+    amount: 1
+  output:
+  - type: mc
+    id: cod
+    amount: 5
+- name: '6'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cod
+    amount: 1
+  output:
+  - type: mc
+    id: salmon
+    amount: 5
+- name: '7'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: salmon
+    amount: 1
+  output:
+  - type: mc
+    id: tropical_fish
+    amount: 5
+- name: '8'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: tropical_fish
+    amount: 1
+  output:
+  - type: mc
+    id: rotten_flesh
+    amount: 5
+- name: '9'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: rotten_flesh
+    amount: 1
+  output:
+  - type: mc
+    id: beef
+    amount: 5
+- name: '10'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_beef
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_chicken
+    amount: 5
+- name: '11'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_chicken
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_mutton
+    amount: 5
+- name: '12'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_mutton
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_porkchop
+    amount: 5
+- name: '13'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_porkchop
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_rabbit
+    amount: 5
+- name: '14'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_rabbit
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_cod
+    amount: 5
+- name: '15'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_cod
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_salmon
+    amount: 5
+- name: '16'
+  duration: 1
+  energy: 12
+  input:
+  - type: mc
+    id: cooked_salmon
+    amount: 1
+  output:
+  - type: mc
+    id: cooked_beef
+    amount: 5

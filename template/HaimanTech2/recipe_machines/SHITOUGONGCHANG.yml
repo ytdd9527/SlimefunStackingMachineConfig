@@ -1,0 +1,16 @@
+machine: SHITOUGONGCHANG
+recipes:
+- name: '1'
+  duration: 0
+  energy: 1600
+  input:
+  - type: mc
+    id: COBBLESTONE
+    amount: 1
+  output:
+  - type: mc
+    id: STONE
+    amount: 64
+  - type: mc
+    id: STONE
+    amount: 64

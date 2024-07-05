@@ -181,7 +181,7 @@ recipes:
     energy: 1200
     input: 
       - type: sf
-        id: INFINITY_INGOT
+        id: INFINITE_INGOT
         amount: 160
     output:
       - type: sf

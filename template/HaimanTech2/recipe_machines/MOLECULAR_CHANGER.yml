@@ -1,0 +1,13 @@
+machine: MOLECULAR_CHANGER
+recipes:
+- name: '1'
+  duration: 2000
+  energy: 600
+  input:
+  - type: sf
+    id: MOLECULAR_RECOMBINATION_INSTRUMENT_I
+    amount: 1
+  output:
+  - type: sf
+    id: MOLECULAR_RECOMBINATION_INSTRUMENT_32767
+    amount: 1

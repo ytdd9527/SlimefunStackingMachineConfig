@@ -1,0 +1,13 @@
+machine: HAIMAN_24K_GOLD_PRODUCER
+recipes:
+- name: '1'
+  duration: 4
+  energy: 1200
+  input:
+  - type: sf
+    id: GOLD_DUST
+    amount: 12
+  output:
+  - type: sf
+    id: GOLD_24K
+    amount: 1

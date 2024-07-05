@@ -1,0 +1,376 @@
+machine: MOLECULAR_RECOMBINATION_INSTRUMENT_IV
+recipes:
+- name: '1'
+  duration: 3
+  energy: 30000
+  input:
+  - type: mc
+    id: COBWEB
+    amount: 8
+  output:
+  - type: mc
+    id: NETHER_STAR
+    amount: 4
+- name: '2'
+  duration: 50
+  energy: 30000
+  input:
+  - type: mc
+    id: TURTLE_EGG
+    amount: 32
+  output:
+  - type: mc
+    id: DRAGON_EGG
+    amount: 1
+- name: '3'
+  duration: 6
+  energy: 30000
+  input:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 8
+  output:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 4
+- name: '4'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 4
+  output:
+  - type: mc
+    id: DRAGON_HEAD
+    amount: 1
+- name: '5'
+  duration: 30
+  energy: 30000
+  input:
+  - type: mc
+    id: NAUTILUS_SHELL
+    amount: 32
+  output:
+  - type: mc
+    id: HEART_OF_THE_SEA
+    amount: 2
+- name: '6'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: SLIME_BALL
+    amount: 16
+  output:
+  - type: mc
+    id: SCUTE
+    amount: 5
+- name: '7'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: BEEF
+    amount: 16
+  output:
+  - type: mc
+    id: PLAYER_HEAD
+    amount: 4
+- name: '8'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: GUNPOWDER
+    amount: 16
+  output:
+  - type: mc
+    id: CREEPER_HEAD
+    amount: 4
+- name: '9'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: BONE
+    amount: 16
+  output:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 4
+- name: '10'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: SUGAR_CANE
+    amount: 48
+  output:
+  - type: mc
+    id: SLIME_BALL
+    amount: 25
+- name: '11'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: POPPY
+    amount: 20
+  output:
+  - type: mc
+    id: WITHER_ROSE
+    amount: 5
+- name: '12'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: CHORUS_FRUIT
+    amount: 15
+  output:
+  - type: mc
+    id: CHORUS_PLANT
+    amount: 15
+- name: '13'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: EGG
+    amount: 16
+  output:
+  - type: mc
+    id: TURTLE_EGG
+    amount: 5
+- name: '14'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: COD
+    amount: 8
+  output:
+  - type: mc
+    id: NAUTILUS_SHELL
+    amount: 5
+- name: '15'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: SUGAR
+    amount: 12
+  output:
+  - type: mc
+    id: HONEYCOMB
+    amount: 6
+- name: '16'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: MUSIC_DISC_11
+    amount: 1
+  output:
+  - type: mc
+    id: MUSIC_DISC_PIGSTEP
+    amount: 1
+- name: '17'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: CACTUS
+    amount: 4
+  output:
+  - type: mc
+    id: BAMBOO
+    amount: 32
+- name: '18'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 10
+  output:
+  - type: mc
+    id: EXPERIENCE_BOTTLE
+    amount: 10
+- name: '19'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: EXPERIENCE_BOTTLE
+    amount: 12
+  output:
+  - type: mc
+    id: DRAGON_BREATH
+    amount: 12
+- name: '20'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: FEATHER
+    amount: 12
+  output:
+  - type: mc
+    id: PHANTOM_MEMBRANE
+    amount: 12
+- name: '21'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: CARROT
+    amount: 6
+  output:
+  - type: mc
+    id: RABBIT_FOOT
+    amount: 5
+- name: '22'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: STRING
+    amount: 10
+  output:
+  - type: mc
+    id: COBWEB
+    amount: 10
+- name: '23'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: BLUE_DYE
+    amount: 8
+  output:
+  - type: mc
+    id: PRISMARINE_SHARD
+    amount: 6
+- name: '24'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: CHORUS_PLANT
+    amount: 15
+  output:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 15
+- name: '25'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 5
+  output:
+  - type: mc
+    id: SHULKER_SHELL
+    amount: 5
+- name: '26'
+  duration: 6000
+  energy: 30000
+  input:
+  - type: mc
+    id: DEAD_BUSH
+    amount: 1
+  output:
+  - type: mc
+    id: COMMAND_BLOCK
+    amount: 1
+- name: '27'
+  duration: 3100
+  energy: 30000
+  input:
+  - type: mc
+    id: CRIMSON_FUNGUS
+    amount: 1
+  output:
+  - type: mc
+    id: STRUCTURE_VOID
+    amount: 1
+- name: '28'
+  duration: 2650
+  energy: 30000
+  input:
+  - type: mc
+    id: PURPUR_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: STRUCTURE_BLOCK
+    amount: 1
+- name: '29'
+  duration: 2650
+  energy: 30000
+  input:
+  - type: mc
+    id: STRUCTURE_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: JIGSAW
+    amount: 1
+- name: '30'
+  duration: 16688
+  energy: 30000
+  input:
+  - type: mc
+    id: JIGSAW
+    amount: 2
+  output:
+  - type: sf
+    id: MINECRAFT_DEAD_BUSH_GHOST
+    amount: 1
+- name: '31'
+  duration: 800
+  energy: 30000
+  input:
+  - type: sf
+    id: INFINITY_SINGULARITY
+    amount: 32
+  output:
+  - type: sf
+    id: HAIMAN_INFINITY_CONSTRUCTOR_2
+    amount: 1
+- name: '33'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: PRISMARINE_SHARD
+    amount: 1
+  output:
+  - type: mc
+    id: PRISMARINE_CRYSTALS
+    amount: 4
+- name: '34'
+  duration: 255
+  energy: 30000
+  input:
+  - type: mc
+    id: GOLD_INGOT
+    amount: 16
+  output:
+  - type: mc
+    id: PIGLIN_HEAD
+    amount: 1
+- name: '35'
+  duration: 1
+  energy: 30000
+  input:
+  - type: mc
+    id: ROTTEN_FLESH
+    amount: 16
+  output:
+  - type: mc
+    id: ZOMBIE_HEAD
+    amount: 4

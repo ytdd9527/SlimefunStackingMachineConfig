@@ -1,0 +1,9 @@
+machine: 11_DISC_MACHINE
+empty:
+- name: 11_DISC_MACHINE
+  duration: 6
+  energy: 22500
+  output:
+  - type: mc
+    id: MUSIC_DISC_11
+    amount: 16

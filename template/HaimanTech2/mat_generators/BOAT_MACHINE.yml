@@ -1,0 +1,9 @@
+machine: BOAT_MACHINE
+empty:
+- name: BOAT_MACHINE
+  duration: 1
+  energy: 4500
+  output:
+  - type: mc
+    id: OAK_BOAT
+    amount: 64

@@ -1,0 +1,128 @@
+machine: HAIMAN_DUANZAO_MACHINE
+recipes:
+- name: '1'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_HELMET
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_HELMET
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_CHESTPLATE
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_CHESTPLATE
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_LEGGINGS
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_LEGGINGS
+    amount: 1
+- name: '4'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_BOOTS
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_BOOTS
+    amount: 1
+- name: '5'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_SWORD
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_SWORD
+    amount: 1
+- name: '6'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_PICKAXE
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_PICKAXE
+    amount: 1
+- name: '7'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_AXE
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_AXE
+    amount: 1
+- name: '8'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_SHOVEL
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_SHOVEL
+    amount: 1
+- name: '9'
+  duration: 1
+  energy: 120
+  input:
+  - type: mc
+    id: DIAMOND_HOE
+    amount: 1
+  - type: mc
+    id: NETHERITE_INGOT
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERITE_HOE
+    amount: 1

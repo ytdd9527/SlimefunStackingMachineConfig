@@ -1,0 +1,35 @@
+machine: HAIMAN_LEARHER_CHANGER
+recipes:
+- name: '1'
+  duration: 2
+  energy: 6
+  input:
+  - type: mc
+    id: RABBIT_HIDE
+    amount: 4
+  output:
+  - type: mc
+    id: LEATHER
+    amount: 1
+- name: '2'
+  duration: 4
+  energy: 6
+  input:
+  - type: mc
+    id: LEATHER
+    amount: 1
+  output:
+  - type: mc
+    id: RABBIT_HIDE
+    amount: 4
+- name: '3'
+  duration: 250
+  energy: 6
+  input:
+  - type: sf
+    id: ANCIENT_RUNE_RAINBOW
+    amount: 1
+  output:
+  - type: sf
+    id: RAINBOW_LEATHER
+    amount: 4

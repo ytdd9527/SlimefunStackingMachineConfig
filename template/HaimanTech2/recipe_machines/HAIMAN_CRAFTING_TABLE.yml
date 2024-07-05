@@ -1,0 +1,46 @@
+machine: HAIMAN_CRAFTING_TABLE
+recipes:
+- name: '1'
+  duration: 6
+  energy: 24
+  input:
+  - type: mc
+    id: RABBIT_HIDE
+    amount: 6
+  output:
+  - type: mc
+    id: BUNDLE
+    amount: 1
+- name: '2'
+  duration: 10
+  energy: 24
+  input:
+  - type: mc
+    id: BIG_DRIPLEAF
+    amount: 6
+  output:
+  - type: mc
+    id: SCULK_SENSOR
+    amount: 1
+- name: '3'
+  duration: 4
+  energy: 24
+  input:
+  - type: mc
+    id: HONEYCOMB
+    amount: 2
+  output:
+  - type: mc
+    id: CANDLE
+    amount: 1
+- name: '4'
+  duration: 2
+  energy: 24
+  input:
+  - type: mc
+    id: ALLIUM
+    amount: 2
+  output:
+  - type: mc
+    id: SPORE_BLOSSOM
+    amount: 1

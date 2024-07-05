@@ -1,0 +1,9 @@
+machine: DIAMOND_SWORD_MACHINE
+empty:
+- name: DIAMOND_SWORD_MACHINE
+  duration: 8
+  energy: 32500
+  output:
+  - type: mc
+    id: DIAMOND_SWORD
+    amount: 32

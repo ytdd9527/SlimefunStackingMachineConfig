@@ -1,0 +1,9 @@
+machine: SHEARS_MACHINE
+empty:
+- name: SHEARS_MACHINE
+  duration: 6
+  energy: 22500
+  output:
+  - type: mc
+    id: SHEARS
+    amount: 64

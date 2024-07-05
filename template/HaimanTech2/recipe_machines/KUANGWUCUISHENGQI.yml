@@ -1,0 +1,90 @@
+machine: KUANGWUCUISHENGQI
+recipes:
+- name: '1'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: MEITANZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: COAL_ORE
+    amount: 16
+- name: '2'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: TIEZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: IRON_ORE
+    amount: 16
+- name: '3'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: JINZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: GOLD_ORE
+    amount: 16
+- name: '4'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: LVBAOSHIZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: EMERALD_ORE
+    amount: 16
+- name: '5'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: ZUANSHIZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: DIAMOND_ORE
+    amount: 16
+- name: '6'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: SHIYINGZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: NETHER_QUARTZ_ORE
+    amount: 16
+- name: '7'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: QINGJINSHIZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: LAPIS_ORE
+    amount: 16
+- name: '8'
+  duration: 16
+  energy: 16
+  input:
+  - type: sf
+    id: HONGSHISHIZHONGZI
+    amount: 1
+  output:
+  - type: mc
+    id: REDSTONE_ORE
+    amount: 16

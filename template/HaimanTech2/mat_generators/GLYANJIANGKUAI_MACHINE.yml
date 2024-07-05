@@ -1,0 +1,9 @@
+machine: GLYANJIANGKUAI_MACHINE
+empty:
+- name: GLYANJIANGKUAI_MACHINE
+  duration: 1
+  energy: 80
+  output:
+  - type: mc
+    id: MAGMA_BLOCK
+    amount: 8

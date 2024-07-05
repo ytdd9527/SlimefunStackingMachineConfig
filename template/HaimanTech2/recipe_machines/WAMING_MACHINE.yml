@@ -1,0 +1,35 @@
+machine: WAMING_MACHINE
+recipes:
+- name: '1'
+  duration: 2
+  energy: 68
+  input:
+  - type: mc
+    id: YELLOW_DYE
+    amount: 1
+  output:
+  - type: mc
+    id: OCHRE_FROGLIGHT
+    amount: 1
+- name: '2'
+  duration: 2
+  energy: 68
+  input:
+  - type: mc
+    id: PURPLE_DYE
+    amount: 1
+  output:
+  - type: mc
+    id: PEARLESCENT_FROGLIGHT
+    amount: 1
+- name: '3'
+  duration: 2
+  energy: 68
+  input:
+  - type: mc
+    id: LIME_DYE
+    amount: 1
+  output:
+  - type: mc
+    id: VERDANT_FROGLIGHT
+    amount: 1

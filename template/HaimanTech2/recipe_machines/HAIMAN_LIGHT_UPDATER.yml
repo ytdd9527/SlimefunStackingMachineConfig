@@ -1,0 +1,178 @@
+machine: HAIMAN_LIGHT_UPDATER
+recipes:
+- name: '1'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_0
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_1
+    amount: 1
+- name: '2'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_1
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_2
+    amount: 1
+- name: '3'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_2
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_3
+    amount: 1
+- name: '4'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_3
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_4
+    amount: 1
+- name: '5'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_4
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_5
+    amount: 1
+- name: '6'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_5
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_6
+    amount: 1
+- name: '7'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_6
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_7
+    amount: 1
+- name: '8'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_7
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_8
+    amount: 1
+- name: '9'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_8
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_9
+    amount: 1
+- name: '10'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_9
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_10
+    amount: 1
+- name: '11'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_10
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_11
+    amount: 1
+- name: '12'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_11
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_12
+    amount: 1
+- name: '13'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_12
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_13
+    amount: 1
+- name: '14'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_13
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_14
+    amount: 1
+- name: '15'
+  duration: 4
+  energy: 5500
+  input:
+  - type: sf
+    id: LIGHT_14
+    amount: 1
+  output:
+  - type: mc
+    id: LIGHT
+    amount: 1
+- name: '16'
+  duration: 4
+  energy: 5500
+  input:
+  - type: mc
+    id: LIGHT
+    amount: 1
+  output:
+  - type: sf
+    id: LIGHT_0
+    amount: 1

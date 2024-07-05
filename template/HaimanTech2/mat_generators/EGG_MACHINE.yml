@@ -1,0 +1,9 @@
+machine: EGG_MACHINE
+empty:
+- name: EGG_MACHINE
+  duration: 2
+  energy: 4000
+  output:
+  - type: mc
+    id: EGG
+    amount: 64

@@ -1,0 +1,9 @@
+machine: KONGBAIFUWEN_MACHINE
+empty:
+- name: KONGBAIFUWEN_MACHINE
+  duration: 1
+  energy: 5000
+  output:
+  - type: sf
+    id: BLANK_RUNE
+    amount: 2

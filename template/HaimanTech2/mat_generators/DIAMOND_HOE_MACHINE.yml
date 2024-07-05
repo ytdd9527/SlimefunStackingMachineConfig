@@ -1,0 +1,9 @@
+machine: DIAMOND_HOE_MACHINE
+empty:
+- name: DIAMOND_HOE_MACHINE
+  duration: 8
+  energy: 32500
+  output:
+  - type: mc
+    id: DIAMOND_HOE
+    amount: 32

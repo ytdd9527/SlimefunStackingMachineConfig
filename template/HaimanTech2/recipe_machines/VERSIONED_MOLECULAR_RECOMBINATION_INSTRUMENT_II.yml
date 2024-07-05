@@ -1,0 +1,299 @@
+machine: VERSIONED_MOLECULAR_RECOMBINATION_INSTRUMENT_II
+recipes:
+- name: '1'
+  duration: 30
+  energy: 7000
+  input:
+  - type: mc
+    id: COBWEB
+    amount: 32
+  output:
+  - type: mc
+    id: NETHER_STAR
+    amount: 1
+- name: '2'
+  duration: 1000
+  energy: 7000
+  input:
+  - type: mc
+    id: TURTLE_EGG
+    amount: 35
+  output:
+  - type: mc
+    id: DRAGON_EGG
+    amount: 1
+- name: '3'
+  duration: 25
+  energy: 7000
+  input:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 16
+  output:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 1
+- name: '4'
+  duration: 120
+  energy: 7000
+  input:
+  - type: mc
+    id: WITHER_SKELETON_SKULL
+    amount: 20
+  output:
+  - type: mc
+    id: DRAGON_HEAD
+    amount: 1
+- name: '5'
+  duration: 500
+  energy: 7000
+  input:
+  - type: mc
+    id: NAUTILUS_SHELL
+    amount: 64
+  output:
+  - type: mc
+    id: HEART_OF_THE_SEA
+    amount: 1
+- name: '6'
+  duration: 55
+  energy: 7000
+  input:
+  - type: mc
+    id: SLIME_BALL
+    amount: 32
+  output:
+  - type: mc
+    id: SCUTE
+    amount: 1
+- name: '7'
+  duration: 55
+  energy: 7000
+  input:
+  - type: mc
+    id: BEEF
+    amount: 32
+  output:
+  - type: mc
+    id: PLAYER_HEAD
+    amount: 1
+- name: '8'
+  duration: 5
+  energy: 7000
+  input:
+  - type: mc
+    id: GUNPOWDER
+    amount: 32
+  output:
+  - type: mc
+    id: CREEPER_HEAD
+    amount: 1
+- name: '9'
+  duration: 5
+  energy: 7000
+  input:
+  - type: mc
+    id: BONE
+    amount: 32
+  output:
+  - type: mc
+    id: SKELETON_SKULL
+    amount: 1
+- name: '10'
+  duration: 15
+  energy: 7000
+  input:
+  - type: mc
+    id: SUGAR_CANE
+    amount: 32
+  output:
+  - type: mc
+    id: SLIME_BALL
+    amount: 1
+- name: '11'
+  duration: 50
+  energy: 7000
+  input:
+  - type: mc
+    id: POPPY
+    amount: 32
+  output:
+  - type: mc
+    id: WITHER_ROSE
+    amount: 1
+- name: '12'
+  duration: 13
+  energy: 7000
+  input:
+  - type: mc
+    id: CHORUS_FRUIT
+    amount: 25
+  output:
+  - type: mc
+    id: CHORUS_PLANT
+    amount: 1
+- name: '13'
+  duration: 40
+  energy: 7000
+  input:
+  - type: mc
+    id: EGG
+    amount: 16
+  output:
+  - type: mc
+    id: TURTLE_EGG
+    amount: 1
+- name: '14'
+  duration: 30
+  energy: 7000
+  input:
+  - type: mc
+    id: COD
+    amount: 25
+  output:
+  - type: mc
+    id: NAUTILUS_SHELL
+    amount: 1
+- name: '15'
+  duration: 10
+  energy: 7000
+  input:
+  - type: mc
+    id: SUGAR
+    amount: 25
+  output:
+  - type: mc
+    id: HONEYCOMB
+    amount: 1
+- name: '16'
+  duration: 80
+  energy: 7000
+  input:
+  - type: mc
+    id: MUSIC_DISC_11
+    amount: 1
+  output:
+  - type: mc
+    id: MUSIC_DISC_PIGSTEP
+    amount: 1
+- name: '17'
+  duration: 4
+  energy: 7000
+  input:
+  - type: mc
+    id: CACTUS
+    amount: 32
+  output:
+  - type: mc
+    id: BAMBOO
+    amount: 1
+- name: '18'
+  duration: 6
+  energy: 7000
+  input:
+  - type: mc
+    id: GLASS_BOTTLE
+    amount: 32
+  output:
+  - type: mc
+    id: EXPERIENCE_BOTTLE
+    amount: 1
+- name: '19'
+  duration: 16
+  energy: 7000
+  input:
+  - type: mc
+    id: EXPERIENCE_BOTTLE
+    amount: 36
+  output:
+  - type: mc
+    id: DRAGON_BREATH
+    amount: 1
+- name: '20'
+  duration: 10
+  energy: 7000
+  input:
+  - type: mc
+    id: FEATHER
+    amount: 30
+  output:
+  - type: mc
+    id: PHANTOM_MEMBRANE
+    amount: 1
+- name: '21'
+  duration: 9
+  energy: 7000
+  input:
+  - type: mc
+    id: CARROT
+    amount: 25
+  output:
+  - type: mc
+    id: RABBIT_FOOT
+    amount: 1
+- name: '22'
+  duration: 6
+  energy: 7000
+  input:
+  - type: mc
+    id: STRING
+    amount: 40
+  output:
+  - type: mc
+    id: COBWEB
+    amount: 1
+- name: '23'
+  duration: 16
+  energy: 7000
+  input:
+  - type: mc
+    id: BLUE_DYE
+    amount: 22
+  output:
+  - type: mc
+    id: PRISMARINE_SHARD
+    amount: 1
+- name: '24'
+  duration: 7
+  energy: 7000
+  input:
+  - type: mc
+    id: CHORUS_PLANT
+    amount: 10
+  output:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 1
+- name: '25'
+  duration: 40
+  energy: 7000
+  input:
+  - type: mc
+    id: CHORUS_FLOWER
+    amount: 35
+  output:
+  - type: mc
+    id: SHULKER_SHELL
+    amount: 1
+- name: '26'
+  duration: 6
+  energy: 7000
+  input:
+  - type: mc
+    id: PRISMARINE_SHARD
+    amount: 4
+  output:
+  - type: mc
+    id: PRISMARINE_CRYSTALS
+    amount: 1
+- name: '27'
+  duration: 5
+  energy: 7000
+  input:
+  - type: mc
+    id: ROTTEN_FLESH
+    amount: 32
+  output:
+  - type: mc
+    id: ZOMBIE_HEAD
+    amount: 1

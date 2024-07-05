@@ -1,0 +1,9 @@
+machine: HAIMAN_QUARTZ_PRODUCER_2
+empty:
+- name: HAIMAN_QUARTZ_PRODUCER_2
+  duration: 1
+  energy: 60
+  output:
+  - type: mc
+    id: QUARTZ
+    amount: 16

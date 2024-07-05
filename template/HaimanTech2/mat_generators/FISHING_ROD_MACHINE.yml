@@ -1,0 +1,9 @@
+machine: FISHING_ROD_MACHINE
+empty:
+- name: FISHING_ROD_MACHINE
+  duration: 6
+  energy: 12500
+  output:
+  - type: mc
+    id: FISHING_ROD
+    amount: 64

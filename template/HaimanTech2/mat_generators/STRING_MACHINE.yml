@@ -1,0 +1,9 @@
+machine: STRING_MACHINE
+empty:
+- name: STRING_MACHINE
+  duration: 1
+  energy: 80
+  output:
+  - type: mc
+    id: STRING
+    amount: 8

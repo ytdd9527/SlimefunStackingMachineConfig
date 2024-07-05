@@ -1,0 +1,79 @@
+machine: HAIMAN_CARBON_PRESS_5
+recipes:
+- name: '1'
+  duration: 1
+  energy: 640
+  input:
+  - type: mc
+    id: CHARCOAL
+    amount: 4
+  output:
+  - type: mc
+    id: COAL
+    amount: 1
+- name: '2'
+  duration: 1
+  energy: 640
+  input:
+  - type: mc
+    id: COAL
+    amount: 8
+  output:
+  - type: sf
+    id: CARBON
+    amount: 1
+- name: '3'
+  duration: 1
+  energy: 640
+  input:
+  - type: mc
+    id: COAL_BLOCK
+    amount: 7
+  output:
+  - type: sf
+    id: CARBON
+    amount: 9
+- name: '4'
+  duration: 1
+  energy: 640
+  input:
+  - type: sf
+    id: CARBON
+    amount: 4
+  output:
+  - type: sf
+    id: COMPRESSED_CARBON
+    amount: 1
+- name: '5'
+  duration: 1
+  energy: 640
+  input:
+  - type: sf
+    id: CARBON_CHUNK
+    amount: 1
+  output:
+  - type: sf
+    id: SYNTHETIC_DIAMOND
+    amount: 1
+- name: '6'
+  duration: 1
+  energy: 640
+  input:
+  - type: sf
+    id: RAW_CARBONADO
+    amount: 1
+  output:
+  - type: sf
+    id: CARBONADO
+    amount: 1
+- name: '7'
+  duration: 1
+  energy: 640
+  input:
+  - type: sf
+    id: COMPRESSED_CARBON
+    amount: 8
+  output:
+  - type: sf
+    id: CARBON_CHUNK
+    amount: 1

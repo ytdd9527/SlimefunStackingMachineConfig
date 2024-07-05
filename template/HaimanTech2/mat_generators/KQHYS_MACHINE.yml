@@ -1,0 +1,9 @@
+machine: KQHYS_MACHINE
+empty:
+- name: KQHYS_MACHINE
+  duration: 1
+  energy: 160
+  output:
+  - type: mc
+    id: CRYING_OBSIDIAN
+    amount: 2

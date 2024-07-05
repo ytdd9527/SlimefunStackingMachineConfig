@@ -1,0 +1,46 @@
+machine: SGJ_MACHINE
+recipes:
+- name: '1'
+  duration: 5
+  energy: 1000
+  input:
+  - type: mc
+    id: BEETROOT_SEEDS
+    amount: 8
+  output:
+  - type: mc
+    id: PITCHER_POD
+    amount: 1
+- name: '2'
+  duration: 5
+  energy: 1000
+  input:
+  - type: mc
+    id: BLUE_ORCHID
+    amount: 8
+  output:
+  - type: mc
+    id: PITCHER_PLANT
+    amount: 1
+- name: '3'
+  duration: 5
+  energy: 1000
+  input:
+  - type: mc
+    id: PUMPKIN_SEEDS
+    amount: 8
+  output:
+  - type: mc
+    id: TORCHFLOWER_SEEDS
+    amount: 1
+- name: '4'
+  duration: 5
+  energy: 1000
+  input:
+  - type: mc
+    id: DANDELION
+    amount: 8
+  output:
+  - type: mc
+    id: TORCHFLOWER
+    amount: 1

@@ -1,0 +1,9 @@
+machine: HAIMAN_TOTEM_EXPLORER
+empty:
+- name: HAIMAN_TOTEM_EXPLORER
+  duration: 40
+  energy: 28000
+  output:
+  - type: mc
+    id: TOTEM_OF_UNDYING
+    amount: 1

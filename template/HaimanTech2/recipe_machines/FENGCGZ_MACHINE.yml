@@ -1,0 +1,24 @@
+machine: FENGCGZ_MACHINE
+recipes:
+- name: '1'
+  duration: 4
+  energy: 500
+  input:
+  - type: mc
+    id: BEEHIVE
+    amount: 1
+  output:
+  - type: mc
+    id: BEE_NEST
+    amount: 1
+- name: '2'
+  duration: 4
+  energy: 500
+  input:
+  - type: mc
+    id: BEE_NEST
+    amount: 1
+  output:
+  - type: mc
+    id: BEEHIVE
+    amount: 1

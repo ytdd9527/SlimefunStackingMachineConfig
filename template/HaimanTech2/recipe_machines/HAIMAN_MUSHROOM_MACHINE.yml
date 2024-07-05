@@ -1,0 +1,101 @@
+machine: HAIMAN_MUSHROOM_MACHINE
+recipes:
+- name: '1'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: BROWN_MUSHROOM
+    amount: 1
+  output:
+  - type: mc
+    id: BROWN_MUSHROOM
+    amount: 2
+- name: '2'
+  duration: 3
+  energy: 15
+  input:
+  - type: mc
+    id: RED_MUSHROOM
+    amount: 1
+  output:
+  - type: mc
+    id: RED_MUSHROOM
+    amount: 2
+- name: '3'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: WARPED_FUNGUS
+    amount: 1
+  output:
+  - type: mc
+    id: WARPED_FUNGUS
+    amount: 2
+- name: '4'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: CRIMSON_FUNGUS
+    amount: 1
+  output:
+  - type: mc
+    id: CRIMSON_FUNGUS
+    amount: 2
+- name: '5'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: WARPED_ROOTS
+    amount: 1
+  output:
+  - type: mc
+    id: WARPED_ROOTS
+    amount: 2
+- name: '6'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: CRIMSON_ROOTS
+    amount: 1
+  output:
+  - type: mc
+    id: CRIMSON_ROOTS
+    amount: 2
+- name: '7'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: BROWN_MUSHROOM_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: BROWN_MUSHROOM_BLOCK
+    amount: 2
+- name: '8'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: RED_MUSHROOM_BLOCK
+    amount: 1
+  output:
+  - type: mc
+    id: RED_MUSHROOM_BLOCK
+    amount: 2
+- name: '9'
+  duration: 4
+  energy: 15
+  input:
+  - type: mc
+    id: MUSHROOM_STEM
+    amount: 1
+  output:
+  - type: mc
+    id: MUSHROOM_STEM
+    amount: 2

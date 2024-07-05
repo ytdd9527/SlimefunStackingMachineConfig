@@ -1,0 +1,82 @@
+machine: DIYUKONGJIAN
+recipes:
+- name: '1'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: NETHERRACK
+    amount: 1
+  output:
+  - type: mc
+    id: NETHERRACK
+    amount: 64
+  - type: mc
+    id: NETHERRACK
+    amount: 64
+- name: '2'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: SOUL_SAND
+    amount: 1
+  output:
+  - type: mc
+    id: SOUL_SAND
+    amount: 64
+- name: '3'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: SOUL_SOIL
+    amount: 1
+  output:
+  - type: mc
+    id: SOUL_SOIL
+    amount: 64
+- name: '4'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: BASALT
+    amount: 1
+  output:
+  - type: mc
+    id: BASALT
+    amount: 64
+- name: '5'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: BLACKSTONE
+    amount: 1
+  output:
+  - type: mc
+    id: BLACKSTONE
+    amount: 64
+- name: '6'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: OBSIDIAN
+    amount: 1
+  output:
+  - type: mc
+    id: OBSIDIAN
+    amount: 64
+- name: '7'
+  duration: 0
+  energy: 200000
+  input:
+  - type: mc
+    id: CRYING_OBSIDIAN
+    amount: 1
+  output:
+  - type: mc
+    id: CRYING_OBSIDIAN
+    amount: 64

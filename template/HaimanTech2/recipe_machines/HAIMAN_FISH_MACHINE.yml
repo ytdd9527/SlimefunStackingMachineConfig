@@ -1,0 +1,68 @@
+machine: HAIMAN_FISH_MACHINE
+recipes:
+- name: '1'
+  duration: 4
+  energy: 120
+  input:
+  - type: mc
+    id: COD
+    amount: 1
+  output:
+  - type: mc
+    id: COD_BUCKET
+    amount: 1
+- name: '2'
+  duration: 4
+  energy: 120
+  input:
+  - type: mc
+    id: SALMON
+    amount: 1
+  output:
+  - type: mc
+    id: SALMON_BUCKET
+    amount: 1
+- name: '3'
+  duration: 4
+  energy: 120
+  input:
+  - type: mc
+    id: PUFFERFISH
+    amount: 1
+  output:
+  - type: mc
+    id: PUFFERFISH_BUCKET
+    amount: 1
+- name: '4'
+  duration: 8
+  energy: 120
+  input:
+  - type: mc
+    id: TROPICAL_FISH
+    amount: 1
+  output:
+  - type: mc
+    id: TROPICAL_FISH_BUCKET
+    amount: 1
+- name: '5'
+  duration: 10
+  energy: 120
+  input:
+  - type: mc
+    id: TROPICAL_FISH_BUCKET
+    amount: 1
+  output:
+  - type: mc
+    id: AXOLOTL_BUCKET
+    amount: 1
+- name: '6'
+  duration: 8
+  energy: 120
+  input:
+  - type: mc
+    id: SLIME_BALL
+    amount: 1
+  output:
+  - type: mc
+    id: TADPOLE_BUCKET
+    amount: 1
