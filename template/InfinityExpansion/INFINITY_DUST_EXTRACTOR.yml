@@ -1,4 +1,4 @@
-machine: INFINITY_DUST_EXTRACTOR
+machine: INFINITY_INGOT_FORMER
 recipes:
   - name: 矿粉
     duration: 10
