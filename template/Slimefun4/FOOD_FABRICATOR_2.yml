@@ -1,0 +1,156 @@
+machine: FOOD_FABRICATOR_2
+recipes:
+  - name: 小麦有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: WHEAT
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_WHEAT
+        amount: 2
+  - name: 胡萝卜有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: CARROT
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_CARROT
+        amount: 2
+  - name: 马铃薯有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: POTATO
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_POTATO
+        amount: 2
+  - name: 小麦种子有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: WHEAT_SEEDS
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_SEEDS
+        amount: 2
+  - name: 甜菜根有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: BEETROOT
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_BEETROOT
+        amount: 2
+  - name: 西瓜有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: MELON_SLICE
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_MELON
+        amount: 2
+  - name: 苹果有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: APPLE
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_APPLE
+        amount: 2
+  - name: 海带有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: DRIED_KELP
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_KELP
+        amount: 2
+  - name: 可可豆有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: COCOA
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_COCOA
+        amount: 2
+  - name: 甜莓有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: SWEET_BERRIES
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_SWEET_BERRIES
+        amount: 2
+  - name: 海草有机食物
+    duration: 4
+    energy: 24
+    input:
+      - type: mc
+        id: SEAGRASS
+        amount: 1
+      - type: sf
+        id: CAN
+        amount: 1
+    output:
+      - type: sf
+        id: ORGANIC_FOOD_SEAGRASS
+        amount: 2
