@@ -1,0 +1,24 @@
+machine: EXTREME_FREEZER
+recipes:
+  - name: 冰
+    duration: 10
+    energy: 90
+    input:
+      - type: mc
+        id: ICE
+        amount: 20
+    output:
+      - type: sf
+        id: REACTOR_COLLANT_CELL
+        amount: 10
+  - name: 岩浆块
+    duration: 10
+    energy: 90
+    input:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 20
+    output:
+      - type: sf
+        id: NETHER_ICE_COOLANT_CELL
+        amount: 10
