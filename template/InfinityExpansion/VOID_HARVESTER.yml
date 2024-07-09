@@ -1,0 +1,9 @@
+machine: VOID_HARVESTER
+empty:
+  - name: 虚空粒
+    duration: 640
+    energy: 120
+    output:
+      - type: sf
+        id: VOID_DUST
+        amount: 10

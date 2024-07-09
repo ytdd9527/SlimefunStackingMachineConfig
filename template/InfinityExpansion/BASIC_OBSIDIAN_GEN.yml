@@ -1,0 +1,9 @@
+machine: BASIC_OBSIDIAN_GEN
+empty:
+  - name: 黑曜石
+    duration: 10
+    energy: 240
+    output:
+      - type: mc
+        id: OBSIDIAN
+        amount: 10

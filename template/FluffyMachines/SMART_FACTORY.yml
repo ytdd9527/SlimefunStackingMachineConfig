@@ -1,0 +1,669 @@
+machine: SMART_FACTORY
+recipes:
+  - name: 4K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: GOLD_4K
+        amount: 1
+  - name: 6K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: GOLD_6K
+        amount: 1
+  - name: 8K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 3
+    output:
+      - type: sf
+        id: GOLD_8K
+        amount: 1
+  - name: 10K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 4
+    output:
+      - type: sf
+        id: GOLD_10K
+        amount: 1
+  - name: 12K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 5
+    output:
+      - type: sf
+        id: GOLD_12K
+        amount: 1
+  - name: 14K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 6
+    output:
+      - type: sf
+        id: GOLD_14K
+        amount: 1
+  - name: 16K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 7
+    output:
+      - type: sf
+        id: GOLD_16K
+        amount: 1
+  - name: 18K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 8
+    output:
+      - type: sf
+        id: GOLD_18K
+        amount: 1
+  - name: 20K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 9
+    output:
+      - type: sf
+        id: GOLD_20K
+        amount: 1
+  - name: 22K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 10
+    output:
+      - type: sf
+        id: GOLD_22K
+        amount: 1
+  - name: 24K金
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: GOLD_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: GOLD_24K
+        amount: 1
+  - name: 人造绿宝石
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: GLASS_PANE
+        amount: 2
+      - type: mc
+        id: LAPIS_LAZULI
+        amount: 1
+      - type: mc
+        id: GLASS
+        amount: 1
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 4
+    output:
+      - type: sf
+        id: SYNTHETIC_EMERALD
+        amount: 1
+  - name: 电磁铁(下界岩)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: NETHERRACK
+        amount: 32
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 8
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: ELECTRO_MAGNET
+        amount: 1
+  - name: 电磁铁(岩浆块)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 2
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 8
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: ELECTRO_MAGNET
+        amount: 1
+  - name: 电磁铁(硫酸盐)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: SULFATE
+        amount: 2
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 8
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: ELECTRO_MAGNET
+        amount: 1
+  - name: 电动马达(下界岩)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: NETHERRACK
+        amount: 32
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 14
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: ELECTRIC_MOTOR
+        amount: 1
+  - name: 电动马达(岩浆块)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 2
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 14
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: ELECTRIC_MOTOR
+        amount: 1
+  - name: 电动马达(硫酸盐)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: SULFATE
+        amount: 2
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 14
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: ELECTRIC_MOTOR
+        amount: 1
+  - name: 加热线圈(下界岩)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: NETHERRACK
+        amount: 32
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 22
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: HEATING_COIL
+        amount: 1
+  - name: 加热线圈(岩浆块)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: MAGMA_BLOCK
+        amount: 2
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 22
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: HEATING_COIL
+        amount: 1
+  - name: 加热线圈(硫酸盐)
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: SULFATE
+        amount: 2
+      - type: mc
+        id: REDSTONE
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 22
+      - type: sf
+        id: ZINC_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: HEATING_COIL
+        amount: 1
+  - name: 银铜合金锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+      - type: sf
+        id: SILVER_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: BILLON_INGOT
+        amount: 1
+  - name: 焊锡锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+      - type: sf
+        id: LEAD_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: SOLDER_INGOT
+        amount: 1
+  - name: 镍锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+      - type: sf
+        id: IRON_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: NICKEL_INGOT
+        amount: 1
+  - name: 钴锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+      - type: sf
+        id: IRON_DUST
+        amount: 3
+    output:
+      - type: sf
+        id: COBALT_INGOT
+        amount: 1
+  - name: 硬铝锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 2
+      - type: sf
+        id: COPPER_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: DURALUMIN_INGOT
+        amount: 1
+  - name: 青铜锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: BRONZE_INGOT
+        amount: 1
+  - name: 铝黄铜锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: ALUMINUM_BRONZE_INGOT
+        amount: 1
+  - name: 黄铜锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: ZINC_DUST
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: BRASS_INGOT
+        amount: 1
+  - name: 铝黄铜锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: ZINC_DUST
+        amount: 1
+      - type: sf
+        id: COPPER_DUST
+        amount: 2
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: ALUMINUM_BRASS_INGOT
+        amount: 1
+  - name: 钢锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: COAL
+        amount: 8
+      - type: sf
+        id: IRON_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: STEEL_INGOT
+        amount: 1
+  - name: 大马士革钢锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: COAL
+        amount: 16
+      - type: sf
+        id: IRON_DUST
+        amount: 4
+    output:
+      - type: sf
+        id: DAMASCUS_STEEL_INGOT
+        amount: 1
+  - name: 科林斯青铜锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: COPPER_DUST
+        amount: 3
+      - type: sf
+        id: GOLD_DUST
+        amount: 1
+      - type: sf
+        id: TIN_DUST
+        amount: 16
+      - type: sf
+        id: SILVER_DUST
+        amount: 1
+    output:
+      - type: sf
+        id: CORINTHIAN_BRONZE_INGOT
+        amount: 1
+  - name: 镀金铁锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: sf
+        id: IRON_DUST
+        amount: 1
+      - type: sf
+        id: GOLD_DUST
+        amount: 11
+    output:
+      - type: sf
+        id: GILDED_IRON
+        amount: 1
+  - name: 红石合金锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: COAL
+        amount: 48
+      - type: mc
+        id: REDSTONE
+        amount: 10
+      - type: mc
+        id: QUARTZ
+        amount: 4
+      - type: sf
+        id: COPPER_DUST
+        amount: 3
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 4
+      - type: sf
+        id: IRON_DUST
+        amount: 6
+    output:
+      - type: sf
+        id: REDSTONE_ALLOY
+        amount: 1
+  - name: 硅铁
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: QUARTZ
+        amount: 4
+      - type: sf
+        id: IRON_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: FERROSILICON
+        amount: 1
+  - name: 硬化金属
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: COAL
+        amount: 48
+      - type: sf
+        id: COPPER_DUST
+        amount: 3
+      - type: sf
+        id: TIN_DUST
+        amount: 1
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 4
+      - type: sf
+        id: IRON_DUST
+        amount: 4
+    output:
+      - type: sf
+        id: HARDENED_METAL_INGOT
+        amount: 1
+  - name: 强化合金锭
+    duration: 100
+    energy: 1024
+    input:
+      - type: mc
+        id: COAL
+        amount: 64
+      - type: sf
+        id: COPPER_DUST
+        amount: 7
+      - type: sf
+        id: GOLD_DUST
+        amount: 12
+      - type: sf
+        id: TIN_DUST
+        amount: 3
+      - type: sf
+        id: SILVER_DUST
+        amount: 3
+      - type: sf
+        id: ALUMINUM_DUST
+        amount: 4
+      - type: sf
+        id: IRON_DUST
+        amount: 8
+      - type: sf
+        id: LEAD_DUST
+        amount: 2
+    output:
+      - type: sf
+        id: REINFORCED_ALLOY_INGOT
+        amount: 1
