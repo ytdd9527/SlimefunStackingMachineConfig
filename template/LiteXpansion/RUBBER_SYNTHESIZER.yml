@@ -1,0 +1,16 @@
+machine: RUBBER_SYNTHESIZER
+recipes:
+  - name: 橡胶提取
+    duration: 26
+    energy: 769
+    input:
+      - type: sf
+        id: BUCKET_OF_OIL
+        amount: 1
+    output:
+      - type: sf
+        id: RUBBER
+        amount: 8
+      - type: mc
+        id: BUCKET
+        amount: 1
